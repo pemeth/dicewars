@@ -29,7 +29,7 @@ def possible_attacks(board: Board, player_name: int):
             adjacent_area = board.get_area(adj)
             if adjacent_area.get_owner_name() != player_name:
                 attack_neigb.append(adjacent_area)
-        
+
         attacks.append((area, attack_neigb))
     return attacks
 
@@ -40,24 +40,31 @@ def get_possible_attacks(board: Board, player_name: int):
 
     # Loop through all possible attacks
     for attack in attacks:
-        
         attack_neigb = []
-        attacker_loss = 0
-        defender_loss = 0
+        cum_attacker_loss = 0
+        cum_defender_loss = 0
+
+        attacker, defenders = attack
 
         # Loop through all possible defenders
-        for defender in attack[1]:
-            loss = heuristic_loss(attack[0], defender)
-            attack_neigb.append({'attacker_loss': loss[0], 'defender_loss': loss[1], 'defender': defender})
+        for defender in defenders:
+            attacker_loss, defender_loss = heuristic_loss(attacker, defender)
+            attack_neigb.append({
+                'attacker_loss': attacker_loss,
+                'defender_loss': defender_loss,
+                'defender': defender,
+                'defender_name': defender.get_name()
+            })
 
-            attacker_loss += loss[0]
-            defender_loss += loss[1]
+            cum_attacker_loss += attacker_loss
+            cum_defender_loss += defender_loss
 
         attack_weighted.append({
-            'attacker': attack[0],
-            'attacker_loss': attacker_loss,
-            'defender_loss': defender_loss,
+            'attacker': attacker,
+            'attacker_name': attacker.get_name(),
+            'cum_attacker_loss': cum_attacker_loss,
+            'cum_defender_loss': cum_defender_loss,
             'defenders': attack_neigb
         })
 
-    return sorted(attack_weighted, key=lambda x: x['defender_loss'] - x['attacker_loss'], reverse=True)
+    return sorted(attack_weighted, key=lambda x: x['cum_defender_loss'] - x['cum_attacker_loss'], reverse=True)
