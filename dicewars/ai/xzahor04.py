@@ -25,14 +25,13 @@ class AI:
 
             a = get_possible_attacks(board, self.player_name)
             for b in a:
-                print(f"attacker: {b['attacker']}")
-                print(f"attacker_loss: {b['attacker_loss']}")
-                print(f"defender_loss: {b['defender_loss']}")
+                print(f"attacker_name: {b['attacker_name']}")
+                print(f"cum_attacker_loss: {b['cum_attacker_loss']}")
+                print(f"cum_defender_loss: {b['cum_defender_loss']}")
                 print(f"defenders: {b['defenders']}")
                 print()
                 print()
 
-    
         # Defend stage
         elif self.stage == 'defend':
             pass
@@ -58,4 +57,3 @@ class AI:
             return EndTurnCommand() """
 
         return EndTurnCommand()
-        
