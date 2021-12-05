@@ -18,10 +18,13 @@ def heuristic_loss(attacker: Area, defender: Area):
 
 def possible_attacks(board: Board, player_name: int):
     attacks = []
+    # Get our areas that neigbour enemies
     for area in board.get_player_border(player_name):
+        # Dice count > 1
         if not area.can_attack():
             continue
-
+        
+        # Get neighbours of area
         neighbours = area.get_adjacent_areas_names()
         attack_neigb = []
 
