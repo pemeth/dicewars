@@ -1,0 +1,6691 @@
+Purple
+
+Attacker: 4
+Deffenders: 3 , 2 , 1 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 4 , 3 , 1 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 5 , 4 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 7
+Deffenders: 6 , 5 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 7 , 6 , 4 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 8 , 6 , 5 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 8), (9, 8))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 8 , 6 , 6 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 8), (3, 8))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 7 , 4 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 6), (9, 7))
+[]
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 3
+Deffenders: 2 , 1 , 
+Helpers: 
+
+FUTURE THREAT
+2 5
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 3 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 4 , 2 , 
+Helpers: 2 , 
+
+NO helping deffense path
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 7
+Deffenders: 5 , 3 , 
+Helpers: 3 , 
+
+NO helping deffense path
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 6 , 3 , 
+Helpers: 4 , 
+
+Attacking: 8 6
+
+Attacker: 7
+Deffenders: 8 , 4 , 
+Helpers: 
+
+Attacker: 4
+Deffenders: 3 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((6, 7), (2, 8))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 7
+Deffenders: 5 , 2 , 
+Helpers: 
+
+Attacker: 6
+Deffenders: 2 , 
+Helpers: 2 , 
+
+FUTURE THREAT
+6 8
+
+Attacking: 6 2
+
+Attacker: 7
+Deffenders: 5 , 2 , 
+Helpers: 
+
+Attacker: 5
+Deffenders: 3 , 2 , 2 , 
+Helpers: 
+
+FUTURE THREAT
+6 8
+
+FUTURE THREAT
+4 8
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 7
+Deffenders: 3 , 1 , 1 , 
+Helpers: 
+
+Attacker: 2
+Deffenders: 8 , 
+Helpers: 3 , 
+
+FUTURE THREAT
+6 8
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 1
+((9, 2), (6, 8))
+[(10, 3)]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 7
+Deffenders: 4 , 2 , 1 , 
+Helpers: 
+
+Attacker: 2
+Deffenders: 3 , 
+Helpers: 6 , 
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 5 , 4 , 1 , 
+Helpers: 
+
+Attacker: 4
+Deffenders: 1 , 
+Helpers: 6 , 
+
+FUTURE THREAT
+3 5
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 4 , 3 , 2 , 
+Helpers: 
+
+Attacker: 6
+Deffenders: 3 , 
+Helpers: 7 , 
+
+Attacking: 6 3
+
+Attacker: 8
+Deffenders: 4 , 3 , 2 , 
+Helpers: 
+
+Attacker: 5
+Deffenders: 4 , 1 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 5 , 3 , 2 , 
+Helpers: 4 , 
+
+Attacker: 6
+Deffenders: 3 , 1 , 
+Helpers: 4 , 
+
+Attacking: 8 5
+
+Attacker: 7
+Deffenders: 8 , 8 , 2 , 
+Helpers: 
+
+Attacker: 6
+Deffenders: 3 , 1 , 
+Helpers: 
+
+Attacker: 4
+Deffenders: 3 , 2 , 
+Helpers: 
+
+Attacking: 6 3
+
+Attacker: 7
+Deffenders: 8 , 8 , 2 , 
+Helpers: 
+
+Attacker: 5
+Deffenders: 2 , 1 , 
+Helpers: 
+
+Attacker: 4
+Deffenders: 2 , 
+Helpers: 
+
+FUTURE THREAT
+4 8
+
+FUTURE THREAT
+3 8
+
+Attacking NONE
+
+DEFENSE 1
+((3, 7), (8, 8))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 3
+Deffenders: 8 , 1 , 
+Helpers: 8 , 
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 1
+((9, 3), (6, 8))
+[(10, 8)]
+DEFFEEND MOVES
+Attacking: 8 3
+
+DEFENSE 1
+((9, 8), (6, 8))
+[(10, 3)]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 2 , 2 , 
+Helpers: 5 , 
+
+Attacking: 8 2
+
+Attacker: 7
+Deffenders: 3 , 3 , 3 , 
+Helpers: 
+
+Attacker: 5
+Deffenders: 2 , 
+Helpers: 
+
+FUTURE THREAT
+6 8
+
+Attacking: 5 2
+
+Attacker: 7
+Deffenders: 3 , 3 , 3 , 
+Helpers: 
+
+Attacker: 4
+Deffenders: 3 , 2 , 
+Helpers: 
+
+FUTURE THREAT
+6 8
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 3 , 3 , 2 , 
+Helpers: 2 , 
+
+Attacker: 5
+Deffenders: 3 , 3 , 
+Helpers: 2 , 
+
+NO helping deffense path
+NO helping deffense path
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 6 , 4 , 1 , 
+Helpers: 3 , 
+
+Attacker: 6
+Deffenders: 7 , 4 , 
+Helpers: 3 , 
+
+NO helping deffense path
+NO helping attack path
+Attacking NONE
+
+DEFENSE 1
+((6, 6), (4, 7))
+[(9, 3)]
+[(10, 4)]
+DEFFEEND MOVES
+Attacking: 4 3
+
+DEFFEEND MOVES
+Attacking: 6 6
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 8 , 6 , 3 , 
+Helpers: 6 , 
+
+Attacker: 8
+Deffenders: 8 , 6 , 
+Helpers: 6 , 
+
+Attacking: 8 8
+
+Attacker: 8
+Deffenders: 8 , 6 , 
+Helpers: 
+
+Attacker: 6
+Deffenders: 6 , 6 , 3 , 
+Helpers: 
+
+FUTURE THREAT
+5 8
+
+Attacking NONE
+
+DEFENSE 1
+((6, 8), (4, 8))
+[(9, 1)]
+[(10, 3)]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 8 , 4 , 1 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 2
+((9, 1), (6, 8))
+((5, 8), (3, 8))
+[(10, 5)]
+[]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 2 , 
+Helpers: 
+
+FUTURE THREAT
+5 8
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 7
+Deffenders: 4 , 
+Helpers: 
+
+FUTURE THREAT
+6 8
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 4 , 
+Helpers: 
+
+Attacking: 8 4
+
+Attacker: 7
+Deffenders: 8 , 8 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((9, 7), (5, 8))
+[(10, 1)]
+[]
+NO DEFENSE PATH FOUND
+Purple
+
+Attacking NONE
+
+DEFENSE 1
+((10, 1), (11, 5))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 2
+Deffenders: 6 , 5 , 5 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 2), (11, 6))
+[]
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 4
+Deffenders: 3 , 
+Helpers: 
+
+Attacking: 4 3
+
+Attacking NONE
+
+DEFENSE 1
+((10, 1), (3, 2))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 2
+Deffenders: 3 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 2), (3, 3))
+[]
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 4
+Deffenders: 4 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 4), (8, 4))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 7 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 5), (8, 7))
+[]
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 3
+Deffenders: 5 , 1 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 2
+((6, 3), (9, 5))
+((10, 1), (1, 4))
+[]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 3
+Deffenders: 3 , 1 , 
+Helpers: 
+
+Attacker: 2
+Deffenders: 4 , 3 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 2
+((6, 3), (5, 3))
+((10, 2), (1, 4))
+[]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 4
+Deffenders: 4 , 2 , 
+Helpers: 
+
+Attacker: 3
+Deffenders: 5 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 3), (1, 5))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 6 , 2 , 
+Helpers: 
+
+Attacker: 3
+Deffenders: 6 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 3), (1, 6))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 8 , 2 , 
+Helpers: 
+
+Attacker: 5
+Deffenders: 3 , 2 , 
+Helpers: 
+
+FUTURE THREAT
+4 6
+
+Attacking NONE
+
+DEFENSE 1
+((6, 6), (9, 8))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 7
+Deffenders: 1 , 1 , 
+Helpers: 
+
+Attacker: 4
+Deffenders: 4 , 1 , 
+Helpers: 
+
+FUTURE THREAT
+6 8
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 3
+Deffenders: 3 , 2 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((6, 3), (10, 3))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 3
+Deffenders: 3 , 3 , 2 , 
+Helpers: 
+
+FUTURE THREAT
+2 4
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 4
+Deffenders: 4 , 3 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 4
+Deffenders: 3 , 3 , 1 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 4 , 2 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 5 , 4 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 7
+Deffenders: 6 , 4 , 3 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 6 , 1 , 1 , 
+Helpers: 
+
+Attacking: 8 6
+
+Attacker: 7
+Deffenders: 7 , 1 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 2 , 1 , 
+Helpers: 
+
+Attacker: 3
+Deffenders: 4 , 2 , 
+Helpers: 
+
+Attacking: 5 2
+
+Attacker: 4
+Deffenders: 4 , 2 , 1 , 
+Helpers: 
+
+Attacker: 3
+Deffenders: 4 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 4
+Deffenders: 3 , 1 , 
+Helpers: 
+
+Attacking: 4 3
+
+Attacking NONE
+
+DEFENSE 1
+((10, 1), (8, 2))
+[]
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 4
+Deffenders: 3 , 
+Helpers: 
+
+FUTURE THREAT
+3 5
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 3 , 
+Helpers: 
+
+FUTURE THREAT
+4 6
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 2 , 
+Helpers: 
+
+FUTURE THREAT
+5 7
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 7
+Deffenders: 1 , 
+Helpers: 
+
+FUTURE THREAT
+6 8
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 2 , 
+Helpers: 
+
+Attacking: 8 2
+
+Attacker: 7
+Deffenders: 8 , 5 , 5 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((4, 7), (7, 8))
+[(10, 1)]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 6 , 6 , 2 , 
+Helpers: 2 , 
+
+NO helping deffense path
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 8 , 6 , 2 , 
+Helpers: 4 , 
+
+NO helping deffense path
+Attacking NONE
+
+DEFENSE 1
+((4, 8), (3, 8))
+[(10, 4)]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 8 , 8 , 2 , 
+Helpers: 6 , 
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 1
+((4, 6), (2, 8))
+[(10, 6)]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 7
+Deffenders: 6 , 3 , 3 , 
+Helpers: 7 , 
+
+Attacking: 7 6
+
+Attacker: 7
+Deffenders: 3 , 3 , 
+Helpers: 
+
+Attacker: 6
+Deffenders: 3 , 3 , 
+Helpers: 
+
+FUTURE THREAT
+6 8
+
+FUTURE THREAT
+5 8
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 5 , 2 , 
+Helpers: 
+
+Attacker: 8
+Deffenders: 2 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 6 , 2 , 
+Helpers: 
+
+Attacker: 8
+Deffenders: 2 , 1 , 
+Helpers: 4 , 
+
+Attacking: 8 2
+
+Attacker: 8
+Deffenders: 6 , 
+Helpers: 
+
+Attacker: 7
+Deffenders: 8 , 3 , 
+Helpers: 
+
+Attacking: 8 6
+
+Attacker: 7
+Deffenders: 8 , 3 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((3, 1), (6, 4))
+[]
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 4
+Deffenders: 4 , 2 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 4), (4, 4))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 5 , 3 , 1 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 7 , 6 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 6), (1, 7))
+[]
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 4
+Deffenders: 3 , 
+Helpers: 
+
+Attacking: 4 3
+
+Attacking NONE
+
+DEFENSE 1
+((10, 1), (7, 2))
+[]
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 4
+Deffenders: 2 , 
+Helpers: 
+
+Attacking: 4 2
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 2
+Deffenders: 3 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 2), (7, 3))
+[]
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 3
+Deffenders: 3 , 1 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((9, 3), (7, 3))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 4
+Deffenders: 3 , 3 , 
+Helpers: 
+
+Attacker: 2
+Deffenders: 4 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 2), (1, 4))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 6 , 2 , 
+Helpers: 
+
+Attacker: 2
+Deffenders: 4 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 2), (1, 4))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 8 , 2 , 
+Helpers: 
+
+Attacker: 4
+Deffenders: 5 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((9, 6), (7, 8))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 8 , 7 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 6), (9, 8))
+[]
+NO DEFENSE PATH FOUND
+Purple
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 2
+Deffenders: 6 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 2), (6, 6))
+[]
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 3
+Deffenders: 5 , 1 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((8, 3), (9, 5))
+[(10, 1)]
+[]
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 4
+Deffenders: 2 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 3 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 4 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 7
+Deffenders: 6 , 5 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 6 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 8 , 3 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 8), (6, 8))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 4 , 2 , 
+Helpers: 
+
+FUTURE THREAT
+5 7
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 3 , 1 , 
+Helpers: 
+
+Attacking: 8 3
+
+Attacker: 7
+Deffenders: 4 , 1 , 
+Helpers: 
+
+Attacking: 7 4
+
+Attacker: 6
+Deffenders: 1 , 1 , 
+Helpers: 
+
+Attacking: 6 1
+
+Attacker: 5
+Deffenders: 6 , 5 , 4 , 1 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 7 , 7 , 5 , 3 , 
+Helpers: 
+
+Attacker: 4
+Deffenders: 3 , 
+Helpers: 
+
+Attacker: 2
+Deffenders: 3 , 
+Helpers: 
+
+Attacker: 2
+Deffenders: 3 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((1, 5), (5, 7))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 7
+Deffenders: 8 , 8 , 6 , 1 , 
+Helpers: 
+
+Attacker: 5
+Deffenders: 1 , 
+Helpers: 
+
+Attacker: 3
+Deffenders: 1 , 
+Helpers: 
+
+Attacker: 2
+Deffenders: 1 , 
+Helpers: 
+
+FUTURE THREAT
+4 8
+
+FUTURE THREAT
+2 8
+
+FUTURE THREAT
+1 8
+
+Attacking NONE
+
+DEFENSE 1
+((1, 7), (5, 8))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 6 , 2 , 
+Helpers: 
+
+Attacker: 4
+Deffenders: 6 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 2
+((10, 4), (4, 6))
+((6, 5), (4, 6))
+[]
+[]
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 4
+Deffenders: 3 , 1 , 
+Helpers: 
+
+Attacking: 4 3
+
+Attacker: 3
+Deffenders: 2 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 3
+Deffenders: 1 , 
+Helpers: 
+
+Attacker: 2
+Deffenders: 3 , 1 , 
+Helpers: 
+
+Attacking: 3 1
+
+Attacker: 2
+Deffenders: 3 , 3 , 2 , 
+Helpers: 
+
+Attacker: 2
+Deffenders: 3 , 1 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((4, 2), (5, 3))
+[(10, 1)]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 3
+Deffenders: 3 , 
+Helpers: 
+
+Attacker: 2
+Deffenders: 5 , 4 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((4, 2), (8, 5))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 4
+Deffenders: 3 , 
+Helpers: 
+
+Attacker: 3
+Deffenders: 6 , 4 , 4 , 
+Helpers: 
+
+Attacking: 4 3
+
+Attacker: 3
+Deffenders: 6 , 4 , 4 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 2
+((10, 1), (7, 2))
+((4, 3), (8, 6))
+[]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 4
+Deffenders: 6 , 3 , 1 , 
+Helpers: 
+
+Attacker: 2
+Deffenders: 5 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 2
+((10, 2), (7, 5))
+((4, 4), (5, 6))
+[]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 4
+Deffenders: 8 , 7 , 4 , 
+Helpers: 
+
+Attacker: 4
+Deffenders: 3 , 
+Helpers: 
+
+Attacking: 4 3
+
+Attacker: 4
+Deffenders: 8 , 7 , 4 , 
+Helpers: 
+
+Attacker: 3
+Deffenders: 4 , 1 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 2
+((4, 4), (5, 8))
+((7, 3), (3, 4))
+[(10, 1)]
+[]
+[(10, 1)]
+[]
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 4
+Deffenders: 2 , 1 , 
+Helpers: 
+
+FUTURE THREAT
+3 5
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 2 , 2 , 
+Helpers: 
+
+FUTURE THREAT
+4 6
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 3 , 2 , 
+Helpers: 
+
+FUTURE THREAT
+5 7
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 7
+Deffenders: 4 , 2 , 
+Helpers: 
+
+FUTURE THREAT
+6 8
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 3 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 3 , 3 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 7 , 1 , 
+Helpers: 
+
+Attacking: 8 7
+
+Attacker: 7
+Deffenders: 2 , 1 , 
+Helpers: 
+
+FUTURE THREAT
+6 8
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 7
+Deffenders: 3 , 3 , 
+Helpers: 
+
+Attacker: 3
+Deffenders: 3 , 
+Helpers: 
+
+FUTURE THREAT
+2 7
+
+Attacking NONE
+
+DEFENSE 1
+((10, 3), (2, 3))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 3 , 2 , 
+Helpers: 
+
+Attacker: 4
+Deffenders: 2 , 
+Helpers: 
+
+FUTURE THREAT
+3 7
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 2 , 2 , 
+Helpers: 
+
+Attacker: 6
+Deffenders: 2 , 
+Helpers: 
+
+Attacking: 6 2
+
+Attacker: 8
+Deffenders: 2 , 
+Helpers: 
+
+Attacker: 5
+Deffenders: 6 , 6 , 2 , 
+Helpers: 
+
+Attacking: 8 2
+
+Attacker: 7
+Deffenders: 6 , 
+Helpers: 
+
+Attacker: 5
+Deffenders: 6 , 6 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((2, 5), (1, 6))
+[(10, 1), (6, 1)]
+[(6, 1)]
+[]
+[(10, 1)]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 8 , 
+Helpers: 2 , 
+
+Attacker: 6
+Deffenders: 8 , 6 , 
+Helpers: 2 , 2 , 
+
+Attacking: 8 8
+
+Attacker: 7
+Deffenders: 8 , 8 , 
+Helpers: 
+
+Attacker: 6
+Deffenders: 6 , 
+Helpers: 2 , 2 , 
+
+NO helping attack path
+NO helping attack path
+Attacking NONE
+
+DEFENSE 1
+((5, 7), (8, 8))
+[(4, 1)]
+[(6, 2)]
+[(10, 2)]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 7
+Deffenders: 8 , 2 , 
+Helpers: 2 , 2 , 
+
+Attacker: 4
+Deffenders: 2 , 
+Helpers: 2 , 
+
+NO helping attack path
+NO helping attack path
+FUTURE THREAT
+3 8
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 1
+((2, 7), (1, 8))
+[(10, 2), (6, 2)]
+[(6, 2)]
+[]
+[(10, 2)]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 4 , 2 , 
+Helpers: 5 , 2 , 
+
+Attacker: 4
+Deffenders: 4 , 
+Helpers: 2 , 
+
+FUTURE THREAT
+5 8
+
+NO helping attack path
+NO helping attack path
+NO helping attack path
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 7
+Deffenders: 3 , 2 , 
+Helpers: 5 , 4 , 
+
+Attacker: 5
+Deffenders: 3 , 
+Helpers: 4 , 
+
+FUTURE THREAT
+6 8
+
+NO helping attack path
+NO helping attack path
+FUTURE THREAT
+4 8
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 6 , 3 , 
+Helpers: 6 , 4 , 
+
+Attacker: 7
+Deffenders: 6 , 
+Helpers: 4 , 
+
+Attacking: 8 6
+
+Attacker: 7
+Deffenders: 8 , 8 , 
+Helpers: 7 , 
+
+Attacker: 6
+Deffenders: 3 , 
+Helpers: 7 , 4 , 
+
+NO helping attack path
+FUTURE THREAT
+5 8
+
+NO helping attack path
+NO helping attack path
+Attacking NONE
+
+DEFENSE 1
+((5, 7), (8, 8))
+[(4, 7)]
+DEFFEEND MOVES
+Attacking: 7 7
+
+DEFENSE 1
+((5, 8), (8, 8))
+[(4, 6)]
+[(6, 4)]
+DEFFEEND MOVES
+Attacking: 4 6
+
+DEFFEEND MOVES
+Attacking: 8 8
+
+DEFENSE 1
+((5, 8), (8, 8))
+[(4, 8)]
+DEFFEEND MOVES
+Attacking: 8 8
+
+DEFENSE 1
+((5, 8), (8, 8))
+[(4, 8)]
+DEFFEEND MOVES
+Attacking: 8 8
+
+DEFENSE 1
+((5, 8), (8, 8))
+[(4, 8)]
+DEFFEEND MOVES
+Attacking: 8 8
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 6 , 4 , 
+Helpers: 4 , 4 , 
+
+Attacker: 8
+Deffenders: 6 , 
+Helpers: 4 , 
+
+NO helping deffense path
+NO helping deffense path
+Attacking: 8 6
+
+Attacker: 8
+Deffenders: 4 , 
+Helpers: 4 , 4 , 
+
+Attacker: 7
+Deffenders: 8 , 8 , 
+Helpers: 
+
+Attacking: 8 4
+
+Attacker: 7
+Deffenders: 8 , 
+Helpers: 
+
+Attacker: 7
+Deffenders: 8 , 8 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 2
+((5, 7), (7, 8))
+((1, 7), (3, 8))
+[(4, 1), (2, 1)]
+[(6, 4), (2, 1)]
+[(10, 4), (2, 1)]
+DEFFEEND MOVES
+Attacking: 4 4
+
+DEFFEEND MOVES
+Attacking: 7 1
+
+DEFFEEND MOVES
+Attacking: 7 7
+
+DEFENSE 2
+((5, 8), (8, 8))
+((1, 7), (3, 8))
+[(4, 6), (2, 1)]
+[(6, 1), (2, 1)]
+[(10, 1), (2, 1)]
+[(2, 1)]
+[(10, 1)]
+[(10, 1), (6, 1)]
+[(6, 1)]
+[(10, 1)]
+[(4, 6), (10, 1), (6, 1)]
+[(6, 1)]
+[(10, 1)]
+[(6, 1)]
+[(4, 6)]
+[(4, 6), (10, 1)]
+[]
+[]
+[(2, 1)]
+[(4, 6), (10, 1), (6, 1)]
+[(6, 1)]
+[(10, 1)]
+[(6, 1)]
+[(4, 6)]
+[(4, 6), (10, 1)]
+[]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 4 , 
+Helpers: 2 , 
+
+Attacker: 2
+Deffenders: 8 , 4 , 
+Helpers: 2 , 2 , 
+
+Attacking: 8 4
+
+Attacker: 7
+Deffenders: 7 , 1 , 
+Helpers: 
+
+Attacker: 2
+Deffenders: 8 , 
+Helpers: 2 , 2 , 
+
+NO helping attack path
+NO helping attack path
+Attacking NONE
+
+DEFENSE 1
+((2, 2), (1, 8))
+[(10, 2), (6, 2), (4, 1)]
+[(6, 2)]
+[(4, 1)]
+[]
+[(10, 2), (4, 1)]
+[]
+[]
+[(6, 2)]
+[(10, 2)]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 7 , 3 , 2 , 
+Helpers: 
+
+Attacker: 4
+Deffenders: 6 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((4, 4), (6, 6))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 8 , 6 , 4 , 
+Helpers: 
+
+Attacker: 6
+Deffenders: 7 , 6 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((4, 6), (6, 7))
+[]
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 3
+Deffenders: 3 , 3 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 2
+((9, 3), (11, 3))
+((10, 1), (6, 3))
+[]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 4
+Deffenders: 4 , 3 , 
+Helpers: 
+
+Attacker: 2
+Deffenders: 4 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 2), (6, 4))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 5 , 2 , 
+Helpers: 
+
+Attacker: 3
+Deffenders: 5 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 3), (6, 5))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 3 , 1 , 
+Helpers: 
+
+Attacker: 3
+Deffenders: 3 , 
+Helpers: 
+
+Attacking: 6 3
+
+Attacker: 5
+Deffenders: 3 , 1 , 1 , 
+Helpers: 3 , 
+
+Attacking: 5 3
+
+Attacker: 4
+Deffenders: 1 , 
+Helpers: 
+
+Attacking: 4 1
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 2
+Deffenders: 2 , 
+Helpers: 4 , 4 , 3 , 
+
+NO helping attack path
+NO helping attack path
+NO helping attack path
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 2
+Deffenders: 6 , 
+Helpers: 6 , 5 , 5 , 
+
+NO helping attack path
+NO helping attack path
+NO helping attack path
+Attacking NONE
+
+DEFENSE 1
+((6, 2), (4, 6))
+[(11, 6), (9, 5), (10, 5), (7, 1)]
+DEFFEEND MOVES
+Attacking: 6 2
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 6 , 
+Helpers: 8 , 5 , 2 , 
+
+Attacking: 8 6
+
+Attacking NONE
+
+DEFENSE 1
+((6, 1), (4, 4))
+[(9, 8), (10, 5), (7, 2), (11, 1)]
+DEFFEEND MOVES
+Attacking: 8 1
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 5 , 
+Helpers: 5 , 4 , 3 , 2 , 
+
+Attacking: 8 5
+
+Attacker: 7
+Deffenders: 8 , 5 , 5 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((4, 7), (3, 8))
+[(6, 1)]
+[(10, 5), (7, 4), (11, 3), (9, 2)]
+[(9, 2)]
+[(11, 3)]
+DEFFEEND MOVES
+Attacking: 3 2
+
+DEFFEEND MOVES
+Attacking: 4 5
+
+DEFFEEND MOVES
+Attacking: 8 1
+
+DEFFEEND MOVES
+Attacking: 8 7
+
+DEFENSE 1
+((4, 8), (3, 8))
+[(6, 7)]
+DEFFEEND MOVES
+Attacking: 7 8
+
+DEFENSE 1
+((4, 8), (3, 8))
+[(6, 7)]
+DEFFEEND MOVES
+Attacking: 7 8
+
+DEFENSE 1
+((4, 8), (3, 8))
+[(6, 7)]
+DEFFEEND MOVES
+Attacking: 7 8
+
+DEFENSE 1
+((4, 6), (2, 8))
+[(6, 8)]
+DEFFEEND MOVES
+Attacking: 8 6
+
+DEFENSE 1
+((4, 8), (2, 8))
+[(6, 6)]
+[(7, 7), (9, 2), (10, 2), (11, 1)]
+DEFFEEND MOVES
+Attacking: 7 6
+
+DEFFEEND MOVES
+Attacking: 8 8
+
+DEFENSE 1
+((4, 8), (2, 8))
+[(6, 8)]
+DEFFEEND MOVES
+Attacking: 8 8
+
+DEFENSE 1
+((4, 8), (2, 8))
+[(6, 8)]
+DEFFEEND MOVES
+Attacking: 8 8
+
+DEFENSE 1
+((4, 8), (2, 8))
+[(6, 8)]
+DEFFEEND MOVES
+Attacking: 8 8
+
+DEFENSE 1
+((4, 8), (2, 8))
+[(6, 8)]
+DEFFEEND MOVES
+Attacking: 8 8
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 8 , 7 , 4 , 
+Helpers: 8 , 
+
+Attacking: 8 8
+
+Attacker: 8
+Deffenders: 7 , 6 , 4 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 8 , 7 , 7 , 
+Helpers: 3 , 
+
+NO helping deffense path
+Attacking NONE
+
+DEFENSE 1
+((4, 8), (3, 8))
+[(6, 3)]
+[(7, 8), (9, 7), (10, 7), (11, 2)]
+DEFFEEND MOVES
+Attacking: 8 3
+
+DEFFEEND MOVES
+Attacking: 8 8
+
+DEFENSE 1
+((4, 8), (3, 8))
+[(6, 8)]
+DEFFEEND MOVES
+Attacking: 8 8
+
+DEFENSE 1
+((4, 8), (3, 8))
+[(6, 8)]
+DEFFEEND MOVES
+Attacking: 8 8
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 5 , 
+Helpers: 8 , 8 , 5 , 4 , 
+
+Attacking: 8 5
+
+Attacker: 7
+Deffenders: 8 , 8 , 7 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((4, 7), (3, 8))
+[(6, 1)]
+[(9, 8), (10, 8), (7, 5), (11, 4)]
+DEFFEEND MOVES
+Attacking: 8 1
+
+DEFFEEND MOVES
+Attacking: 8 7
+
+DEFENSE 1
+((4, 8), (3, 8))
+[(6, 7)]
+DEFFEEND MOVES
+Attacking: 7 8
+
+DEFENSE 1
+((4, 8), (3, 8))
+[(6, 7)]
+DEFFEEND MOVES
+Attacking: 7 8
+
+DEFENSE 1
+((4, 8), (3, 8))
+[(6, 7)]
+DEFFEEND MOVES
+Attacking: 7 8
+
+DEFENSE 1
+((4, 8), (3, 8))
+[(6, 7)]
+DEFFEEND MOVES
+Attacking: 7 8
+
+DEFENSE 1
+((4, 8), (3, 8))
+[(6, 7)]
+DEFFEEND MOVES
+Attacking: 7 8
+
+DEFENSE 1
+((4, 4), (2, 8))
+[(6, 8)]
+DEFFEEND MOVES
+Attacking: 8 4
+
+DEFENSE 1
+((4, 8), (2, 8))
+[(6, 4)]
+[(7, 8), (10, 8), (11, 4), (9, 3)]
+DEFFEEND MOVES
+Attacking: 8 4
+
+DEFFEEND MOVES
+Attacking: 8 8
+
+DEFENSE 1
+((4, 8), (2, 8))
+[(6, 8)]
+DEFFEEND MOVES
+Attacking: 8 8
+
+DEFENSE 1
+((4, 8), (2, 8))
+[(6, 8)]
+DEFFEEND MOVES
+Attacking: 8 8
+
+DEFENSE 1
+((4, 8), (2, 8))
+[(6, 8)]
+DEFFEEND MOVES
+Attacking: 8 8
+
+DEFENSE 1
+((4, 8), (2, 8))
+[(6, 8)]
+DEFFEEND MOVES
+Attacking: 8 8
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 3 , 
+Helpers: 8 , 8 , 8 , 6 , 
+
+Attacking: 8 3
+
+Attacker: 7
+Deffenders: 8 , 8 , 5 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((4, 7), (3, 8))
+[(6, 1)]
+[(7, 8), (10, 8), (11, 8), (9, 6)]
+DEFFEEND MOVES
+Attacking: 8 1
+
+DEFFEEND MOVES
+Attacking: 8 7
+
+DEFENSE 1
+((4, 8), (3, 8))
+[(6, 7)]
+DEFFEEND MOVES
+Attacking: 7 8
+
+DEFENSE 1
+((4, 8), (3, 8))
+[(6, 7)]
+DEFFEEND MOVES
+Attacking: 7 8
+
+DEFENSE 1
+((4, 8), (3, 8))
+[(6, 7)]
+DEFFEEND MOVES
+Attacking: 7 8
+
+DEFENSE 1
+((4, 8), (3, 8))
+[(6, 7)]
+DEFFEEND MOVES
+Attacking: 7 8
+
+DEFENSE 1
+((4, 8), (8, 8))
+[(6, 7)]
+DEFFEEND MOVES
+Attacking: 7 8
+
+DEFENSE 1
+((4, 4), (2, 7))
+[(6, 8)]
+DEFFEEND MOVES
+Attacking: 8 4
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 8 , 4 , 3 , 
+Helpers: 6 , 
+
+Attacking: 8 8
+
+Attacker: 6
+Deffenders: 6 , 4 , 3 , 
+Helpers: 
+
+FUTURE THREAT
+5 8
+
+Attacking NONE
+
+DEFENSE 1
+((4, 6), (2, 6))
+[(6, 1)]
+[(9, 8), (7, 8), (10, 8), (11, 8)]
+DEFFEEND MOVES
+Attacking: 8 1
+
+DEFFEEND MOVES
+Attacking: 8 6
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 8 , 5 , 4 , 
+Helpers: 8 , 
+
+Attacking: 8 8
+
+Attacker: 8
+Deffenders: 5 , 4 , 
+Helpers: 
+
+Attacker: 7
+Deffenders: 8 , 8 , 5 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((3, 7), (1, 8))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 5 , 2 , 2 , 
+Helpers: 4 , 
+
+Attacking: 8 5
+
+Attacker: 4
+Deffenders: 2 , 2 , 
+Helpers: 7 , 
+
+FUTURE THREAT
+3 6
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 3 , 2 , 
+Helpers: 8 , 5 , 
+
+FUTURE THREAT
+5 8
+
+NO helping attack path
+NO helping attack path
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 6 , 3 , 
+Helpers: 8 , 8 , 
+
+Attacking: 8 6
+
+Attacker: 8
+Deffenders: 3 , 
+Helpers: 8 , 
+
+Attacker: 7
+Deffenders: 8 , 8 , 3 , 
+Helpers: 
+
+Attacking: 8 3
+
+Attacker: 7
+Deffenders: 8 , 
+Helpers: 
+
+Attacker: 7
+Deffenders: 8 , 8 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 2
+((2, 7), (1, 8))
+((3, 7), (1, 8))
+[(4, 1)]
+[(8, 8), (6, 1)]
+DEFFEEND MOVES
+Attacking: 8 1
+
+DEFFEEND MOVES
+Attacking: 8 7
+
+DEFENSE 2
+((3, 7), (1, 8))
+((2, 8), (1, 8))
+[(4, 7)]
+DEFFEEND MOVES
+Attacking: 7 7
+
+DEFENSE 2
+((2, 8), (1, 8))
+((3, 8), (1, 8))
+[(4, 6)]
+[(6, 1), (8, 1)]
+[(9, 8), (7, 8), (10, 8), (11, 8)]
+DEFFEEND MOVES
+Attacking: 8 1
+
+DEFFEEND MOVES
+Attacking: 8 6
+
+DEFFEEND MOVES
+Attacking: 8 8
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 3 , 
+Helpers: 8 , 
+
+Attacker: 8
+Deffenders: 3 , 1 , 
+Helpers: 8 , 
+
+Attacking: 8 3
+
+Attacker: 8
+Deffenders: 1 , 
+Helpers: 8 , 7 , 
+
+Attacking: 8 1
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 3
+Deffenders: 1 , 
+Helpers: 
+
+FUTURE THREAT
+2 5
+
+Attacking NONE
+
+DEFENSE 1
+((10, 1), (4, 5))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 3
+Deffenders: 2 , 
+Helpers: 
+
+Attacker: 3
+Deffenders: 6 , 5 , 2 , 
+Helpers: 
+
+FUTURE THREAT
+2 5
+
+Attacking NONE
+
+DEFENSE 1
+((10, 3), (4, 6))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 7 , 5 , 4 , 
+Helpers: 
+
+Attacker: 3
+Deffenders: 4 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 2
+((8, 3), (5, 4))
+((10, 5), (4, 7))
+[]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 6 , 3 , 2 , 1 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 3
+Deffenders: 4 , 3 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((7, 3), (10, 4))
+[]
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 3
+Deffenders: 4 , 4 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((7, 3), (3, 4))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 4
+Deffenders: 5 , 4 , 3 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((7, 4), (3, 5))
+[]
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 3
+Deffenders: 4 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((7, 3), (10, 4))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 3
+Deffenders: 2 , 1 , 
+Helpers: 
+
+Attacking: 3 2
+
+Attacking NONE
+
+DEFENSE 1
+((7, 1), (10, 2))
+[]
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 4
+Deffenders: 4 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 4), (11, 4))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 6 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 5), (11, 6))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 3 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 5 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 7
+Deffenders: 8 , 1 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 7), (11, 8))
+[]
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 4
+Deffenders: 3 , 
+Helpers: 
+
+Attacking: 4 3
+
+Attacker: 3
+Deffenders: 3 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((9, 3), (11, 3))
+[(10, 1)]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 4
+Deffenders: 4 , 1 , 
+Helpers: 2 , 
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 4
+Deffenders: 4 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 4), (6, 4))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 2 , 
+Helpers: 
+
+Attacking: 5 2
+
+Attacker: 4
+Deffenders: 2 , 
+Helpers: 
+
+Attacking: 4 2
+
+Attacker: 3
+Deffenders: 3 , 3 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 4
+Deffenders: 4 , 4 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 5 , 5 , 
+Helpers: 3 , 
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 1
+((5, 5), (1, 5))
+[(6, 3)]
+[(10, 3)]
+DEFFEEND MOVES
+Attacking: 3 3
+
+DEFFEEND MOVES
+Attacking: 5 5
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 7 , 6 , 
+Helpers: 4 , 
+
+NO helping deffense path
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 7 , 7 , 
+Helpers: 4 , 
+
+NO helping deffense path
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 8 , 8 , 
+Helpers: 6 , 
+
+NO helping deffense path
+Attacking NONE
+
+DEFENSE 1
+((5, 8), (1, 8))
+[(6, 6)]
+[(10, 6)]
+DEFFEEND MOVES
+Attacking: 6 6
+
+DEFFEEND MOVES
+Attacking: 8 8
+
+DEFENSE 1
+((5, 8), (1, 8))
+[(6, 8)]
+DEFFEEND MOVES
+Attacking: 8 8
+
+DEFENSE 1
+((5, 8), (1, 8))
+[(6, 8)]
+DEFFEEND MOVES
+Attacking: 8 8
+
+DEFENSE 1
+((5, 8), (1, 8))
+[(6, 8)]
+DEFFEEND MOVES
+Attacking: 8 8
+
+DEFENSE 1
+((5, 8), (1, 8))
+[(6, 8)]
+DEFFEEND MOVES
+Attacking: 8 8
+
+DEFENSE 1
+((5, 8), (1, 8))
+[(6, 8)]
+DEFFEEND MOVES
+Attacking: 8 8
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 2 , 
+Helpers: 8 , 
+
+Attacking: 8 2
+
+Attacker: 7
+Deffenders: 6 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 7
+Deffenders: 2 , 2 , 
+Helpers: 5 , 
+
+Attacking: 7 2
+
+Attacker: 6
+Deffenders: 2 , 
+Helpers: 
+
+Attacker: 5
+Deffenders: 2 , 
+Helpers: 
+
+Attacking: 6 2
+
+Attacker: 5
+Deffenders: 4 , 
+Helpers: 
+
+Attacker: 5
+Deffenders: 2 , 
+Helpers: 
+
+Attacking: 5 4
+
+Attacker: 5
+Deffenders: 2 , 
+Helpers: 
+
+Attacker: 4
+Deffenders: 4 , 4 , 
+Helpers: 
+
+Attacking: 5 2
+
+Attacker: 4
+Deffenders: 4 , 4 , 
+Helpers: 
+
+Attacker: 4
+Deffenders: 4 , 
+Helpers: 
+
+Attacking: 4 4
+
+Attacker: 4
+Deffenders: 4 , 
+Helpers: 
+
+Attacker: 3
+Deffenders: 4 , 3 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 6 , 3 , 
+Helpers: 
+
+Attacker: 4
+Deffenders: 6 , 
+Helpers: 3 , 
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 2
+((3, 4), (4, 6))
+((7, 5), (4, 6))
+[(2, 3)]
+[(1, 1)]
+[(5, 2)]
+[(6, 4), (11, 1)]
+DEFFEEND MOVES
+Attacking: 4 2
+
+DEFFEEND MOVES
+Attacking: 5 1
+
+DEFFEEND MOVES
+Attacking: 5 3
+
+DEFFEEND MOVES
+Attacking: 7 4
+
+DEFENSE 1
+((7, 5), (4, 6))
+[(11, 1)]
+[(5, 1)]
+[(1, 1), (6, 1)]
+[(2, 3)]
+[]
+[(10, 8)]
+DEFFEEND MOVES
+Attacking: 8 1
+
+DEFFEEND MOVES
+Attacking: 8 1
+
+DEFFEEND MOVES
+Attacking: 8 1
+
+DEFFEEND MOVES
+Attacking: 5 5
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 8 , 
+Helpers: 5 , 
+
+Attacker: 8
+Deffenders: 8 , 6 , 
+Helpers: 3 , 
+
+Attacking: 8 8
+
+Attacker: 8
+Deffenders: 6 , 6 , 
+Helpers: 3 , 
+
+NO helping deffense path
+Attacking NONE
+
+DEFENSE 1
+((3, 1), (4, 6))
+[(2, 5)]
+DEFFEEND MOVES
+Attacking: 5 1
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 8 , 7 , 
+Helpers: 5 , 
+
+Attacker: 7
+Deffenders: 8 , 
+Helpers: 2 , 
+
+NO helping deffense path
+NO helping attack path
+Attacking NONE
+
+DEFENSE 2
+((3, 7), (4, 8))
+((7, 8), (4, 8))
+[(2, 2)]
+[(1, 7)]
+DEFFEEND MOVES
+Attacking: 7 2
+
+DEFFEEND MOVES
+Attacking: 8 7
+
+DEFENSE 2
+((3, 8), (4, 8))
+((7, 8), (4, 8))
+[(2, 7)]
+DEFFEEND MOVES
+Attacking: 7 8
+
+DEFENSE 2
+((3, 8), (4, 8))
+((7, 8), (4, 8))
+[(2, 7)]
+DEFFEEND MOVES
+Attacking: 7 8
+
+DEFENSE 2
+((3, 8), (4, 8))
+((7, 8), (4, 8))
+[(2, 7)]
+DEFFEEND MOVES
+Attacking: 7 8
+
+DEFENSE 2
+((3, 8), (4, 8))
+((7, 8), (4, 8))
+[(2, 7)]
+DEFFEEND MOVES
+Attacking: 7 8
+
+DEFENSE 2
+((3, 8), (4, 8))
+((7, 8), (4, 8))
+[(2, 7)]
+DEFFEEND MOVES
+Attacking: 7 8
+
+DEFENSE 1
+((7, 6), (8, 8))
+[(11, 8)]
+DEFFEEND MOVES
+Attacking: 8 6
+
+DEFENSE 1
+((7, 8), (8, 8))
+[(11, 6)]
+[(5, 8)]
+DEFFEEND MOVES
+Attacking: 8 6
+
+DEFFEEND MOVES
+Attacking: 8 8
+
+DEFENSE 1
+((7, 8), (8, 8))
+[(11, 8)]
+DEFFEEND MOVES
+Attacking: 8 8
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 7 , 5 , 
+Helpers: 8 , 
+
+Attacker: 8
+Deffenders: 7 , 
+Helpers: 7 , 
+
+Attacking: 8 7
+
+Attacker: 8
+Deffenders: 5 , 
+Helpers: 
+
+Attacker: 7
+Deffenders: 5 , 3 , 
+Helpers: 8 , 
+
+Attacking: 8 5
+
+Attacker: 7
+Deffenders: 3 , 
+Helpers: 
+
+Attacker: 7
+Deffenders: 3 , 
+Helpers: 8 , 
+
+FUTURE THREAT
+6 8
+
+FUTURE THREAT
+6 8
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 5 , 
+Helpers: 4 , 
+
+Attacker: 8
+Deffenders: 5 , 
+Helpers: 8 , 4 , 
+
+Attacking: 8 5
+
+Attacker: 7
+Deffenders: 8 , 
+Helpers: 8 , 
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 1
+((8, 7), (9, 8))
+[(7, 8), (4, 1)]
+DEFFEEND MOVES
+Attacking: 8 7
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 2 , 
+Helpers: 8 , 2 , 
+
+Attacking: 6 2
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 4
+Deffenders: 3 , 2 , 1 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 3 , 1 , 1 , 
+Helpers: 
+
+Attacking: 5 3
+
+Attacker: 4
+Deffenders: 1 , 1 , 
+Helpers: 
+
+FUTURE THREAT
+3 5
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 4
+Deffenders: 4 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 4), (3, 4))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 5 , 
+Helpers: 
+
+Attacking: 5 5
+
+Attacker: 4
+Deffenders: 3 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 4
+Deffenders: 4 , 2 , 
+Helpers: 3 , 
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 4
+Deffenders: 5 , 4 , 
+Helpers: 5 , 
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 7 , 6 , 
+Helpers: 6 , 
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 1
+((3, 5), (2, 7))
+[(10, 6)]
+DEFFEEND MOVES
+Attacking: 6 5
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 8 , 7 , 
+Helpers: 5 , 
+
+NO helping deffense path
+Attacking NONE
+
+DEFENSE 1
+((3, 8), (2, 8))
+[(10, 5)]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 6 , 3 , 
+Helpers: 7 , 
+
+Attacking: 8 6
+
+Attacker: 7
+Deffenders: 3 , 
+Helpers: 
+
+Attacker: 7
+Deffenders: 3 , 2 , 
+Helpers: 
+
+FUTURE THREAT
+6 8
+
+FUTURE THREAT
+6 8
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 7
+Deffenders: 5 , 
+Helpers: 3 , 
+
+Attacker: 6
+Deffenders: 5 , 2 , 
+Helpers: 
+
+FUTURE THREAT
+6 8
+
+NO helping attack path
+FUTURE THREAT
+5 8
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 6 , 3 , 
+Helpers: 
+
+Attacker: 7
+Deffenders: 6 , 
+Helpers: 4 , 
+
+FUTURE THREAT
+6 8
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 7 , 4 , 
+Helpers: 
+
+Attacker: 7
+Deffenders: 7 , 
+Helpers: 7 , 
+
+FUTURE THREAT
+6 8
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 8 , 
+Helpers: 8 , 
+
+Attacker: 8
+Deffenders: 8 , 5 , 
+Helpers: 
+
+Attacking: 8 8
+
+Attacker: 8
+Deffenders: 5 , 
+Helpers: 
+
+Attacker: 7
+Deffenders: 8 , 5 , 
+Helpers: 
+
+Attacking: 8 5
+
+Attacker: 7
+Deffenders: 2 , 2 , 
+Helpers: 
+
+Attacker: 7
+Deffenders: 8 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((2, 7), (5, 8))
+[(3, 1), (9, 1)]
+[(10, 8), (9, 1)]
+DEFFEEND MOVES
+Attacking: 8 1
+
+DEFFEEND MOVES
+Attacking: 8 7
+
+DEFENSE 1
+((2, 8), (5, 8))
+[(3, 7), (9, 1)]
+DEFFEEND MOVES
+Attacking: 7 8
+
+DEFENSE 1
+((2, 8), (5, 8))
+[(3, 7), (9, 1)]
+DEFFEEND MOVES
+Attacking: 7 8
+
+DEFENSE 1
+((2, 8), (5, 8))
+[(3, 7), (9, 1)]
+DEFFEEND MOVES
+Attacking: 7 8
+
+DEFENSE 1
+((2, 8), (5, 8))
+[(3, 7), (9, 1)]
+DEFFEEND MOVES
+Attacking: 7 8
+
+DEFENSE 1
+((2, 8), (5, 8))
+[(3, 7), (9, 1)]
+DEFFEEND MOVES
+Attacking: 7 8
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 6 , 5 , 1 , 
+Helpers: 
+
+Attacker: 8
+Deffenders: 6 , 
+Helpers: 5 , 
+
+Attacker: 5
+Deffenders: 6 , 
+Helpers: 
+
+Attacking: 8 6
+
+Attacker: 8
+Deffenders: 5 , 1 , 
+Helpers: 5 , 
+
+Attacker: 7
+Deffenders: 8 , 
+Helpers: 5 , 
+
+Attacking: 8 5
+
+Attacker: 7
+Deffenders: 8 , 
+Helpers: 5 , 
+
+Attacker: 7
+Deffenders: 8 , 1 , 
+Helpers: 
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 2
+((4, 7), (7, 8))
+((2, 7), (5, 8))
+[]
+[(9, 5), (3, 1)]
+[(3, 1)]
+[(10, 5)]
+DEFFEEND MOVES
+Attacking: 5 1
+
+DEFFEEND MOVES
+Attacking: 5 5
+
+DEFFEEND MOVES
+Attacking: 8 7
+
+DEFENSE 1
+((2, 8), (5, 8))
+[(9, 7), (3, 2)]
+DEFFEEND MOVES
+Attacking: 7 8
+
+DEFENSE 2
+((4, 7), (7, 8))
+((2, 8), (5, 8))
+[]
+[(9, 7), (3, 2)]
+DEFFEEND MOVES
+Attacking: 7 8
+
+DEFENSE 2
+((4, 7), (7, 8))
+((2, 8), (5, 8))
+[]
+[(9, 7), (3, 2)]
+DEFFEEND MOVES
+Attacking: 7 8
+
+DEFENSE 2
+((4, 7), (7, 8))
+((2, 8), (5, 8))
+[]
+[(9, 7), (3, 2)]
+DEFFEEND MOVES
+Attacking: 7 8
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 5 , 3 , 
+Helpers: 3 , 
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 1
+((3, 5), (9, 5))
+[(10, 3)]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 7 , 4 , 
+Helpers: 5 , 
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 1
+((3, 5), (9, 7))
+[(10, 5)]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 8 , 5 , 
+Helpers: 6 , 
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 1
+((3, 6), (9, 8))
+[(10, 6)]
+[]
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 4
+Deffenders: 4 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 4), (9, 4))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 3 , 
+Helpers: 
+
+Attacking: 5 3
+
+Attacker: 4
+Deffenders: 3 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 4 , 4 , 
+Helpers: 2 , 
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 6 , 3 , 
+Helpers: 3 , 
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 7
+Deffenders: 8 , 3 , 
+Helpers: 4 , 
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 1
+((9, 7), (6, 8))
+[(10, 4)]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 4
+Deffenders: 3 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 2 , 
+Helpers: 
+
+Attacking: 5 2
+
+Attacker: 4
+Deffenders: 5 , 3 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 4
+Deffenders: 5 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 4), (11, 5))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 6 , 3 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 5), (11, 6))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 7 , 4 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 6), (11, 7))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 7
+Deffenders: 8 , 6 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 7), (11, 8))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 2 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 7
+Deffenders: 3 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 4 , 3 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 5 , 4 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 6 , 1 , 
+Helpers: 
+
+Attacking: 8 6
+
+Attacking NONE
+
+DEFENSE 1
+((10, 1), (11, 4))
+[]
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 4
+Deffenders: 4 , 4 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 4), (3, 4))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 6 , 6 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 5), (11, 6))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 8 , 7 , 3 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 6), (3, 8))
+[]
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 3
+Deffenders: 3 , 2 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((6, 3), (9, 3))
+[(10, 1)]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 4 , 3 , 3 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 7 , 3 , 2 , 
+Helpers: 3 , 
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 1
+((6, 5), (8, 7))
+[(10, 3)]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 4 , 1 , 1 , 
+Helpers: 4 , 
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 6 , 3 , 1 , 
+Helpers: 6 , 
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 1
+((6, 5), (9, 6))
+[(10, 6)]
+DEFFEEND MOVES
+Attacking: 6 5
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 7 , 2 , 1 , 
+Helpers: 5 , 
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 8 , 3 , 2 , 
+Helpers: 7 , 
+
+Attacking: 8 8
+
+Attacker: 7
+Deffenders: 3 , 2 , 
+Helpers: 
+
+Attacker: 7
+Deffenders: 3 , 
+Helpers: 
+
+Attacking: 7 3
+
+Attacker: 7
+Deffenders: 2 , 
+Helpers: 
+
+Attacker: 6
+Deffenders: 2 , 
+Helpers: 
+
+Attacking: 7 2
+
+Attacker: 6
+Deffenders: 7 , 2 , 
+Helpers: 6 , 
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 8 , 3 , 
+Helpers: 8 , 
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 1
+((3, 6), (5, 8))
+[(8, 8), (6, 1)]
+DEFFEEND MOVES
+Attacking: 8 6
+
+DEFENSE 1
+((3, 8), (5, 8))
+[(8, 6), (6, 1)]
+[(9, 3), (6, 1)]
+DEFFEEND MOVES
+Attacking: 3 6
+
+DEFFEEND MOVES
+Attacking: 8 8
+
+DEFENSE 1
+((3, 8), (5, 8))
+[(8, 8), (6, 1)]
+DEFFEEND MOVES
+Attacking: 8 8
+
+DEFENSE 1
+((3, 8), (5, 8))
+[(8, 8), (6, 1)]
+DEFFEEND MOVES
+Attacking: 8 8
+
+DEFENSE 1
+((3, 8), (5, 8))
+[(8, 8), (6, 1)]
+DEFFEEND MOVES
+Attacking: 8 8
+
+DEFENSE 1
+((3, 8), (5, 8))
+[(8, 8), (6, 1)]
+DEFFEEND MOVES
+Attacking: 8 8
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 5 , 1 , 
+Helpers: 8 , 2 , 
+
+Attacking: 8 5
+
+Attacker: 7
+Deffenders: 8 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((5, 7), (11, 8))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 2
+Deffenders: 8 , 3 , 
+Helpers: 8 , 4 , 
+
+NO helping attack path
+NO helping attack path
+Attacking NONE
+
+DEFENSE 1
+((3, 2), (5, 8))
+[(8, 8), (6, 4)]
+DEFFEEND MOVES
+Attacking: 8 2
+
+DEFENSE 1
+((3, 8), (5, 8))
+[(6, 4), (8, 2)]
+[(10, 6), (9, 6), (8, 2)]
+DEFFEEND MOVES
+Attacking: 6 4
+
+DEFFEEND MOVES
+Attacking: 8 8
+
+DEFENSE 1
+((3, 8), (5, 8))
+[(6, 8), (8, 2)]
+DEFFEEND MOVES
+Attacking: 8 8
+
+DEFENSE 1
+((3, 8), (5, 8))
+[(6, 8), (8, 2)]
+DEFFEEND MOVES
+Attacking: 8 8
+
+DEFENSE 1
+((3, 8), (5, 8))
+[(6, 8), (8, 2)]
+DEFFEEND MOVES
+Attacking: 8 8
+
+DEFENSE 1
+((3, 8), (5, 8))
+[(6, 8), (8, 2)]
+DEFFEEND MOVES
+Attacking: 8 8
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 4 , 3 , 
+Helpers: 8 , 5 , 
+
+Attacking: 8 4
+
+Attacker: 8
+Deffenders: 3 , 
+Helpers: 5 , 
+
+Attacker: 7
+Deffenders: 7 , 
+Helpers: 
+
+Attacking: 8 3
+
+Attacker: 7
+Deffenders: 8 , 8 , 6 , 
+Helpers: 
+
+Attacker: 7
+Deffenders: 7 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((2, 7), (1, 8))
+[(3, 1)]
+[(8, 5), (6, 1)]
+[(9, 8), (6, 1)]
+DEFFEEND MOVES
+Attacking: 8 5
+
+DEFFEEND MOVES
+Attacking: 8 1
+
+DEFFEEND MOVES
+Attacking: 8 7
+
+DEFENSE 1
+((2, 8), (1, 8))
+[(3, 7)]
+DEFFEEND MOVES
+Attacking: 7 8
+
+DEFENSE 2
+((5, 7), (11, 7))
+((2, 8), (1, 8))
+[(3, 7)]
+DEFFEEND MOVES
+Attacking: 7 7
+
+DEFENSE 1
+((2, 8), (1, 8))
+[(3, 6)]
+[(8, 1), (6, 1)]
+[(9, 5), (6, 1)]
+DEFFEEND MOVES
+Attacking: 5 1
+
+DEFFEEND MOVES
+Attacking: 2 8
+
+DEFFEEND MOVES
+Attacking: 8 3
+
+Purple
+
+Attacker: 4
+Deffenders: 3 , 3 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 6 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 5), (9, 6))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 3 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 5 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 7
+Deffenders: 6 , 3 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 8 , 3 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 4
+Deffenders: 4 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 4), (3, 4))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 2 , 1 , 
+Helpers: 
+
+Attacking: 5 2
+
+Attacker: 4
+Deffenders: 4 , 1 , 
+Helpers: 
+
+Attacking: 4 4
+
+Attacker: 3
+Deffenders: 3 , 1 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 3 , 1 , 
+Helpers: 
+
+Attacker: 2
+Deffenders: 3 , 
+Helpers: 
+
+Attacking: 5 3
+
+Attacker: 4
+Deffenders: 1 , 
+Helpers: 2 , 
+
+FUTURE THREAT
+3 8
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 4
+Deffenders: 2 , 
+Helpers: 4 , 
+
+Attacker: 3
+Deffenders: 2 , 
+Helpers: 
+
+FUTURE THREAT
+3 8
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 3
+Deffenders: 2 , 2 , 
+Helpers: 
+
+FUTURE THREAT
+2 4
+
+Attacking NONE
+
+DEFENSE 1
+((10, 1), (5, 2))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 4
+Deffenders: 2 , 1 , 
+Helpers: 
+
+Attacker: 2
+Deffenders: 2 , 
+Helpers: 
+
+FUTURE THREAT
+3 6
+
+FUTURE THREAT
+1 6
+
+Attacking NONE
+
+DEFENSE 1
+((10, 2), (5, 2))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 3 , 2 , 
+Helpers: 
+
+Attacker: 3
+Deffenders: 2 , 
+Helpers: 
+
+FUTURE THREAT
+4 7
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 4 , 2 , 
+Helpers: 
+
+Attacker: 4
+Deffenders: 2 , 
+Helpers: 
+
+FUTURE THREAT
+5 8
+
+Attacking: 4 2
+
+Attacker: 6
+Deffenders: 4 , 
+Helpers: 
+
+Attacker: 3
+Deffenders: 4 , 4 , 
+Helpers: 
+
+FUTURE THREAT
+5 8
+
+Attacking NONE
+
+DEFENSE 1
+((5, 3), (4, 4))
+[(10, 1)]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 6 , 
+Helpers: 2 , 
+
+Attacker: 3
+Deffenders: 6 , 5 , 
+Helpers: 2 , 
+
+Attacking: 8 6
+
+Attacker: 3
+Deffenders: 5 , 4 , 
+Helpers: 2 , 
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 2
+((9, 1), (6, 4))
+((5, 3), (4, 5))
+[(10, 2)]
+[]
+[(10, 2)]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 3
+Deffenders: 6 , 6 , 
+Helpers: 3 , 
+
+Attacker: 3
+Deffenders: 6 , 
+Helpers: 3 , 
+
+NO helping attack path
+NO helping attack path
+Attacking NONE
+
+DEFENSE 2
+((9, 3), (6, 6))
+((5, 3), (4, 6))
+[(10, 3)]
+[]
+[(10, 3)]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 6 , 3 , 2 , 
+Helpers: 
+
+Attacker: 4
+Deffenders: 3 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 4 , 
+Helpers: 
+
+Attacker: 5
+Deffenders: 8 , 4 , 1 , 
+Helpers: 
+
+FUTURE THREAT
+5 8
+
+Attacking NONE
+
+DEFENSE 1
+((5, 5), (6, 8))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 7
+Deffenders: 2 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 3 , 3 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 8 , 8 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 8), (9, 8))
+[]
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 3
+Deffenders: 2 , 
+Helpers: 
+
+Attacking: 3 2
+
+Attacker: 2
+Deffenders: 3 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 2
+((10, 1), (4, 3))
+((7, 2), (4, 3))
+[(9, 1)]
+[]
+[(9, 1)]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 3
+Deffenders: 4 , 1 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 3), (9, 4))
+[]
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 4
+Deffenders: 5 , 3 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 4), (11, 5))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 6 , 4 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 5), (11, 6))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 7 , 5 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 6), (11, 7))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 7
+Deffenders: 8 , 5 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 7), (11, 8))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 2 , 1 , 
+Helpers: 
+
+Attacking: 6 2
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 3
+Deffenders: 6 , 
+Helpers: 5 , 
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 1
+((10, 3), (3, 6))
+[(11, 5)]
+DEFFEEND MOVES
+Attacking: 5 3
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 8 , 
+Helpers: 2 , 
+
+Attacking: 8 8
+
+Attacker: 7
+Deffenders: 4 , 3 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 7 , 3 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 7 , 4 , 3 , 
+Helpers: 3 , 
+
+Attacking: 8 7
+
+Attacker: 3
+Deffenders: 5 , 4 , 3 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((3, 3), (1, 5))
+[(10, 1)]
+[(11, 5)]
+DEFFEEND MOVES
+Attacking: 5 1
+
+DEFFEEND MOVES
+Attacking: 5 3
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 7 , 5 , 4 , 
+Helpers: 2 , 
+
+NO helping deffense path
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 8 , 6 , 5 , 
+Helpers: 3 , 
+
+NO helping deffense path
+Attacking NONE
+
+DEFENSE 1
+((3, 8), (1, 8))
+[(10, 3)]
+[(11, 4)]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 7 , 6 , 3 , 
+Helpers: 6 , 
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 1
+((3, 6), (2, 7))
+[(10, 6)]
+DEFFEEND MOVES
+Attacking: 6 6
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 8 , 7 , 6 , 
+Helpers: 6 , 
+
+Attacking: 8 8
+
+Attacker: 6
+Deffenders: 7 , 6 , 6 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((3, 6), (1, 6))
+[(10, 1)]
+[(11, 5)]
+DEFFEEND MOVES
+Attacking: 5 1
+
+DEFFEEND MOVES
+Attacking: 5 6
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 8 , 8 , 6 , 
+Helpers: 4 , 
+
+NO helping deffense path
+Attacking NONE
+
+DEFENSE 1
+((3, 8), (1, 8))
+[(10, 4)]
+[(11, 3)]
+[]
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 3
+Deffenders: 4 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((7, 3), (2, 4))
+[(10, 1)]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 4
+Deffenders: 4 , 3 , 
+Helpers: 2 , 
+
+FUTURE THREAT
+3 6
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 1
+((7, 4), (8, 4))
+[(10, 2)]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 4
+Deffenders: 4 , 3 , 
+Helpers: 4 , 
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 5 , 4 , 
+Helpers: 5 , 
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 7
+Deffenders: 6 , 6 , 
+Helpers: 5 , 
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 7 , 6 , 
+Helpers: 6 , 
+
+NO helping deffense path
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 3 , 1 , 
+Helpers: 8 , 
+
+Attacking: 8 3
+
+Attacker: 7
+Deffenders: 5 , 1 , 1 , 
+Helpers: 
+
+Attacking: 7 5
+
+Attacker: 6
+Deffenders: 1 , 1 , 1 , 
+Helpers: 
+
+Attacking: 6 1
+
+Attacker: 5
+Deffenders: 4 , 2 , 2 , 1 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 5 , 3 , 1 , 1 , 
+Helpers: 
+
+Attacker: 2
+Deffenders: 6 , 3 , 1 , 
+Helpers: 
+
+Attacker: 2
+Deffenders: 6 , 3 , 
+Helpers: 8 , 
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 2
+((3, 2), (8, 6))
+((7, 2), (8, 6))
+[]
+[(10, 8)]
+DEFFEEND MOVES
+Attacking: 8 2
+
+DEFENSE 1
+((3, 2), (8, 6))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 8 , 2 , 
+Helpers: 2 , 
+
+Attacker: 7
+Deffenders: 6 , 4 , 4 , 1 , 
+Helpers: 
+
+Attacker: 3
+Deffenders: 8 , 2 , 1 , 
+Helpers: 
+
+Attacking: 8 8
+
+Attacker: 7
+Deffenders: 6 , 4 , 4 , 1 , 
+Helpers: 
+
+Attacker: 3
+Deffenders: 6 , 2 , 1 , 
+Helpers: 
+
+Attacker: 2
+Deffenders: 6 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 2
+((7, 2), (8, 6))
+((3, 3), (8, 6))
+[(10, 1)]
+[]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 7
+Deffenders: 6 , 5 , 2 , 2 , 
+Helpers: 
+
+Attacker: 3
+Deffenders: 2 , 2 , 1 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 8 , 6 , 3 , 1 , 
+Helpers: 
+
+Attacker: 4
+Deffenders: 2 , 1 , 1 , 
+Helpers: 
+
+FUTURE THREAT
+3 8
+
+Attacking NONE
+
+DEFENSE 1
+((4, 8), (11, 8))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 4 , 3 , 1 , 
+Helpers: 
+
+Attacker: 6
+Deffenders: 7 , 4 , 2 , 1 , 
+Helpers: 
+
+FUTURE THREAT
+5 8
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 7
+Deffenders: 8 , 2 , 1 , 
+Helpers: 
+
+Attacker: 7
+Deffenders: 7 , 6 , 4 , 1 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((3, 7), (8, 8))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 8 , 7 , 4 , 3 , 
+Helpers: 
+
+Attacker: 6
+Deffenders: 3 , 3 , 3 , 
+Helpers: 
+
+FUTURE THREAT
+5 8
+
+Attacking NONE
+
+DEFENSE 1
+((4, 8), (6, 8))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 8 , 5 , 1 , 1 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((3, 8), (2, 8))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 8 , 7 , 3 , 1 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((3, 6), (4, 8))
+[]
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 3
+Deffenders: 3 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((8, 3), (6, 3))
+[(10, 1)]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 4
+Deffenders: 4 , 
+Helpers: 2 , 
+
+FUTURE THREAT
+3 5
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 5 , 
+Helpers: 3 , 
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 6 , 
+Helpers: 4 , 
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 7
+Deffenders: 2 , 
+Helpers: 5 , 
+
+Attacking: 7 2
+
+Attacker: 6
+Deffenders: 6 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((6, 6), (5, 6))
+[(8, 1)]
+[(10, 5)]
+DEFFEEND MOVES
+Attacking: 5 1
+
+DEFFEEND MOVES
+Attacking: 5 6
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 2 , 
+Helpers: 4 , 
+
+Attacking: 8 2
+
+Attacker: 7
+Deffenders: 8 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((5, 7), (2, 8))
+[(6, 1)]
+[(8, 4)]
+[(10, 3)]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 1 , 
+Helpers: 2 , 
+
+FUTURE THREAT
+4 6
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 7
+Deffenders: 1 , 
+Helpers: 2 , 
+
+Attacking: 7 1
+
+Attacker: 6
+Deffenders: 7 , 3 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((2, 6), (3, 7))
+[(5, 1)]
+[(6, 2)]
+[(8, 8)]
+DEFFEEND MOVES
+Attacking: 8 2
+
+DEFFEEND MOVES
+Attacking: 8 1
+
+DEFFEEND MOVES
+Attacking: 8 6
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 4
+Deffenders: 3 , 
+Helpers: 6 , 
+
+FUTURE THREAT
+3 7
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 4 , 
+Helpers: 
+
+Attacking: 8 4
+
+Attacker: 7
+Deffenders: 7 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((8, 7), (6, 7))
+[(10, 1)]
+[]
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 4
+Deffenders: 2 , 1 , 
+Helpers: 
+
+Attacking: 4 2
+
+Attacker: 3
+Deffenders: 4 , 1 , 1 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((9, 3), (2, 4))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 4
+Deffenders: 3 , 2 , 2 , 
+Helpers: 
+
+Attacker: 2
+Deffenders: 2 , 
+Helpers: 
+
+FUTURE THREAT
+3 5
+
+FUTURE THREAT
+1 4
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 4 , 3 , 2 , 
+Helpers: 
+
+Attacker: 3
+Deffenders: 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 6 , 4 , 2 , 
+Helpers: 
+
+Attacker: 5
+Deffenders: 2 , 
+Helpers: 
+
+FUTURE THREAT
+4 8
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 7
+Deffenders: 3 , 
+Helpers: 
+
+Attacker: 5
+Deffenders: 7 , 2 , 2 , 
+Helpers: 
+
+FUTURE THREAT
+6 8
+
+Attacking NONE
+
+DEFENSE 1
+((9, 5), (4, 7))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 6 , 
+Helpers: 
+
+Attacker: 6
+Deffenders: 8 , 4 , 2 , 
+Helpers: 
+
+Attacking: 8 6
+
+Attacker: 7
+Deffenders: 8 , 2 , 1 , 
+Helpers: 
+
+Attacker: 6
+Deffenders: 8 , 4 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((9, 6), (4, 8))
+[(10, 1)]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 3 , 3 , 2 , 2 , 
+Helpers: 
+
+FUTURE THREAT
+4 8
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 4 , 4 , 2 , 1 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 7
+Deffenders: 5 , 3 , 2 , 1 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 7 , 3 , 3 , 1 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 8 , 4 , 3 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((5, 8), (11, 8))
+[]
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 3
+Deffenders: 4 , 3 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((2, 3), (10, 4))
+[]
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 3
+Deffenders: 1 , 
+Helpers: 
+
+Attacking: 3 1
+
+Attacker: 2
+Deffenders: 3 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((6, 2), (5, 3))
+[(9, 1), (10, 1)]
+[(10, 1)]
+[]
+[(9, 1)]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 4
+Deffenders: 4 , 
+Helpers: 2 , 
+
+FUTURE THREAT
+3 6
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 1
+((6, 4), (5, 4))
+[(10, 2), (9, 1)]
+[(9, 1)]
+[]
+[(10, 2)]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 5 , 
+Helpers: 3 , 2 , 
+
+NO helping attack path
+NO helping attack path
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 5 , 
+Helpers: 5 , 3 , 
+
+NO helping attack path
+NO helping attack path
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 2 , 
+Helpers: 7 , 3 , 
+
+Attacking: 6 2
+
+Attacker: 5
+Deffenders: 3 , 3 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 7
+Deffenders: 2 , 2 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 2 , 
+Helpers: 
+
+Attacker: 7
+Deffenders: 2 , 
+Helpers: 
+
+Attacking: 8 2
+
+Attacker: 7
+Deffenders: 8 , 
+Helpers: 7 , 
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 1 , 
+Helpers: 
+
+Attacker: 3
+Deffenders: 1 , 
+Helpers: 
+
+Attacking: 8 1
+
+Attacker: 7
+Deffenders: 7 , 
+Helpers: 3 , 
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 1
+((6, 7), (5, 7))
+[(10, 3), (9, 1)]
+[(9, 1)]
+[]
+[(10, 3)]
+[]
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 4
+Deffenders: 5 , 2 , 1 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 4), (11, 5))
+[]
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 4
+Deffenders: 2 , 1 , 
+Helpers: 
+
+FUTURE THREAT
+3 5
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 3 , 2 , 
+Helpers: 
+
+FUTURE THREAT
+4 6
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 4 , 4 , 
+Helpers: 
+
+FUTURE THREAT
+5 7
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 7
+Deffenders: 5 , 1 , 
+Helpers: 
+
+Attacking: 7 5
+
+Attacker: 6
+Deffenders: 4 , 2 , 1 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 4 , 3 , 2 , 
+Helpers: 
+
+Attacker: 2
+Deffenders: 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 2), (4, 2))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 5 , 4 , 2 , 
+Helpers: 
+
+Attacker: 4
+Deffenders: 2 , 
+Helpers: 
+
+FUTURE THREAT
+3 5
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 6 , 5 , 1 , 
+Helpers: 
+
+Attacker: 4
+Deffenders: 1 , 
+Helpers: 
+
+FUTURE THREAT
+3 5
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 7 , 6 , 2 , 
+Helpers: 
+
+Attacker: 6
+Deffenders: 2 , 
+Helpers: 
+
+FUTURE THREAT
+5 8
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 8 , 4 , 2 , 
+Helpers: 
+
+Attacker: 8
+Deffenders: 4 , 
+Helpers: 
+
+Attacking: 8 4
+
+Attacker: 8
+Deffenders: 8 , 2 , 
+Helpers: 
+
+Attacker: 7
+Deffenders: 4 , 2 , 1 , 
+Helpers: 
+
+FUTURE THREAT
+6 8
+
+Attacking NONE
+
+DEFENSE 1
+((1, 8), (6, 8))
+[(10, 1)]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 7
+Deffenders: 7 , 2 , 2 , 2 , 
+Helpers: 
+
+Attacker: 4
+Deffenders: 2 , 
+Helpers: 
+
+Attacking: 4 2
+
+Attacker: 7
+Deffenders: 7 , 2 , 2 , 
+Helpers: 
+
+Attacker: 3
+Deffenders: 2 , 2 , 
+Helpers: 
+
+FUTURE THREAT
+2 7
+
+Attacking NONE
+
+DEFENSE 1
+((4, 7), (8, 7))
+[(10, 1)]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 3 , 1 , 1 , 
+Helpers: 
+
+Attacker: 5
+Deffenders: 4 , 1 , 
+Helpers: 
+
+Attacking: 8 3
+
+Attacker: 5
+Deffenders: 4 , 1 , 
+Helpers: 
+
+Attacking: 5 4
+
+Attacking NONE
+
+DEFENSE 1
+((1, 1), (6, 3))
+[(10, 1)]
+[]
+NO DEFENSE PATH FOUND
+Attacking NONE
+
+DEFENSE 1
+((4, 1), (10, 6))
+[(11, 8)]
+DEFFEEND MOVES
+Attacking: 8 1
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 6 , 4 , 3 , 2 , 
+Helpers: 3 , 
+
+NO helping deffense path
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 8 , 6 , 6 , 3 , 
+Helpers: 5 , 
+
+NO helping deffense path
+Attacking NONE
+
+DEFENSE 1
+((4, 8), (8, 8))
+[(11, 5)]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 8 , 5 , 3 , 2 , 
+Helpers: 7 , 
+
+Attacking: 8 8
+
+Attacker: 7
+Deffenders: 3 , 3 , 2 , 
+Helpers: 
+
+Attacker: 7
+Deffenders: 5 , 3 , 2 , 
+Helpers: 
+
+FUTURE THREAT
+6 8
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 5 , 4 , 4 , 
+Helpers: 3 , 
+
+Attacker: 7
+Deffenders: 6 , 4 , 4 , 
+Helpers: 
+
+NO helping deffense path
+FUTURE THREAT
+6 8
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 6 , 5 , 2 , 
+Helpers: 6 , 
+
+Attacker: 7
+Deffenders: 8 , 6 , 2 , 
+Helpers: 
+
+Attacking: 8 6
+
+Attacker: 7
+Deffenders: 8 , 2 , 
+Helpers: 
+
+Attacker: 7
+Deffenders: 8 , 5 , 
+Helpers: 
+
+Attacker: 6
+Deffenders: 5 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 2
+((2, 7), (3, 8))
+((8, 7), (3, 8))
+[]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 6 , 5 , 
+Helpers: 
+
+Attacker: 7
+Deffenders: 5 , 5 , 
+Helpers: 2 , 
+
+Attacker: 6
+Deffenders: 5 , 5 , 
+Helpers: 
+
+NO helping deffense path
+FUTURE THREAT
+5 8
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 6 , 5 , 
+Helpers: 4 , 
+
+Attacker: 8
+Deffenders: 8 , 7 , 
+Helpers: 
+
+Attacker: 7
+Deffenders: 8 , 6 , 
+Helpers: 
+
+Attacking: 8 6
+
+Attacker: 8
+Deffenders: 8 , 7 , 
+Helpers: 
+
+Attacker: 7
+Deffenders: 5 , 4 , 
+Helpers: 
+
+Attacker: 7
+Deffenders: 8 , 
+Helpers: 
+
+Attacker: 4
+Deffenders: 5 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 2
+((2, 7), (3, 8))
+((8, 8), (3, 8))
+[]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 5 , 5 , 4 , 
+Helpers: 
+
+Attacker: 8
+Deffenders: 8 , 8 , 4 , 
+Helpers: 
+
+Attacker: 6
+Deffenders: 5 , 4 , 
+Helpers: 2 , 
+
+NO helping deffense path
+Attacking NONE
+
+DEFENSE 1
+((8, 8), (9, 8))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 6 , 5 , 2 , 
+Helpers: 
+
+Attacker: 8
+Deffenders: 5 , 2 , 1 , 
+Helpers: 4 , 
+
+Attacking: 8 5
+
+Attacker: 8
+Deffenders: 6 , 2 , 
+Helpers: 7 , 
+
+Attacker: 4
+Deffenders: 2 , 1 , 
+Helpers: 7 , 
+
+Attacking: 8 6
+
+Attacker: 7
+Deffenders: 4 , 2 , 
+Helpers: 
+
+Attacker: 4
+Deffenders: 2 , 1 , 
+Helpers: 
+
+FUTURE THREAT
+3 7
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 7
+Deffenders: 5 , 4 , 
+Helpers: 3 , 
+
+Attacker: 5
+Deffenders: 4 , 4 , 
+Helpers: 3 , 2 , 
+
+NO helping deffense path
+NO helping attack path
+NO helping attack path
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 6 , 6 , 
+Helpers: 4 , 
+
+Attacker: 6
+Deffenders: 8 , 6 , 
+Helpers: 4 , 3 , 
+
+NO helping deffense path
+NO helping attack path
+NO helping attack path
+Attacking NONE
+
+DEFENSE 1
+((4, 6), (8, 8))
+[(10, 4), (11, 3)]
+[]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 7 , 3 , 3 , 
+Helpers: 
+
+Attacker: 7
+Deffenders: 3 , 
+Helpers: 
+
+FUTURE THREAT
+6 8
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 8 , 8 , 6 , 
+Helpers: 
+
+Attacker: 8
+Deffenders: 6 , 
+Helpers: 
+
+Attacking: 8 6
+
+Attacker: 8
+Deffenders: 8 , 8 , 
+Helpers: 
+
+Attacker: 7
+Deffenders: 8 , 8 , 8 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 2
+((4, 7), (2, 8))
+((1, 8), (2, 8))
+[(10, 1)]
+[]
+[(10, 1)]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 3
+Deffenders: 8 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 3), (4, 8))
+[]
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 4
+Deffenders: 2 , 1 , 
+Helpers: 
+
+Attacking: 4 2
+
+Attacker: 3
+Deffenders: 4 , 2 , 1 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((2, 3), (8, 4))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 3
+Deffenders: 2 , 1 , 
+Helpers: 
+
+Attacking: 3 2
+
+Attacker: 2
+Deffenders: 2 , 1 , 
+Helpers: 
+
+FUTURE THREAT
+1 3
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 3
+Deffenders: 4 , 3 , 1 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 3
+Deffenders: 3 , 2 , 1 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 4
+Deffenders: 2 , 
+Helpers: 
+
+Attacking: 4 2
+
+Attacker: 3
+Deffenders: 2 , 
+Helpers: 
+
+Attacking: 3 2
+
+Attacking NONE
+
+DEFENSE 1
+((6, 1), (4, 2))
+[(10, 1)]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 2
+Deffenders: 1 , 
+Helpers: 2 , 
+
+FUTURE THREAT
+1 3
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 3
+Deffenders: 3 , 
+Helpers: 3 , 
+
+FUTURE THREAT
+2 5
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 1
+((6, 3), (4, 3))
+[(10, 3)]
+DEFFEEND MOVES
+Attacking: 3 3
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 1 , 
+Helpers: 2 , 
+
+Attacking: 6 1
+
+Attacker: 5
+Deffenders: 3 , 1 , 
+Helpers: 
+
+Attacking: 5 3
+
+Attacker: 4
+Deffenders: 3 , 3 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Purple
+
+Attacking NONE
+
+DEFENSE 1
+((10, 1), (9, 3))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 2
+Deffenders: 4 , 3 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 2), (9, 4))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 3
+Deffenders: 5 , 4 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 3), (9, 5))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 4
+Deffenders: 5 , 5 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 4), (9, 5))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 6 , 5 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 8 , 7 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 6), (9, 8))
+[]
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 3
+Deffenders: 5 , 2 , 1 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((8, 3), (10, 5))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 3
+Deffenders: 2 , 2 , 1 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 4
+Deffenders: 3 , 2 , 2 , 
+Helpers: 
+
+FUTURE THREAT
+3 8
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 6 , 3 , 3 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((8, 5), (9, 6))
+[]
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 3
+Deffenders: 5 , 3 , 2 , 1 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 2
+((7, 3), (8, 5))
+((10, 1), (6, 3))
+[]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 7 , 4 , 3 , 2 , 1 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((7, 5), (8, 7))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 4 , 3 , 3 , 2 , 1 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 5 , 4 , 4 , 3 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 7
+Deffenders: 6 , 5 , 3 , 3 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 8 , 6 , 5 , 3 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 4
+Deffenders: 2 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 3 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 5 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 7
+Deffenders: 7 , 4 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 7), (8, 7))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 8 , 6 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 8), (8, 8))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 3 , 2 , 
+Helpers: 
+
+FUTURE THREAT
+4 8
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 7
+Deffenders: 5 , 3 , 
+Helpers: 
+
+FUTURE THREAT
+6 8
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 7 , 3 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 6 , 1 , 
+Helpers: 
+
+Attacking: 8 6
+
+Attacker: 7
+Deffenders: 8 , 2 , 1 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((5, 7), (9, 8))
+[]
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 3
+Deffenders: 4 , 3 , 1 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((7, 3), (4, 4))
+[(10, 1)]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 3
+Deffenders: 4 , 3 , 2 , 
+Helpers: 3 , 
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 1
+((7, 3), (8, 4))
+[(10, 3)]
+DEFFEEND MOVES
+Attacking: 3 3
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 8 , 2 , 1 , 
+Helpers: 2 , 
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 1
+((7, 6), (8, 8))
+[(10, 2)]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 1 , 1 , 1 , 
+Helpers: 3 , 
+
+Attacking: 5 1
+
+Attacker: 4
+Deffenders: 1 , 
+Helpers: 
+
+Attacking: 4 1
+
+Attacker: 3
+Deffenders: 4 , 1 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((4, 3), (11, 4))
+[(8, 1)]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 3
+Deffenders: 1 , 
+Helpers: 
+
+FUTURE THREAT
+2 4
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 3
+Deffenders: 1 , 
+Helpers: 
+
+Attacking: 3 1
+
+Attacker: 2
+Deffenders: 3 , 3 , 1 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 4
+Deffenders: 5 , 1 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 4), (11, 5))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 4
+Deffenders: 3 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 3 , 1 , 
+Helpers: 
+
+Attacking: 5 3
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 2
+Deffenders: 1 , 
+Helpers: 5 , 
+
+FUTURE THREAT
+1 8
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 2
+Deffenders: 3 , 
+Helpers: 7 , 
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 1
+((10, 2), (4, 3))
+[(11, 7)]
+DEFFEEND MOVES
+Attacking: 7 2
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 3
+Deffenders: 2 , 
+Helpers: 
+
+Attacking: 3 2
+
+Attacking NONE
+
+DEFENSE 1
+((8, 1), (7, 2))
+[(10, 1)]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 3
+Deffenders: 2 , 
+Helpers: 
+
+Attacking: 3 2
+
+Attacker: 2
+Deffenders: 1 , 
+Helpers: 
+
+FUTURE THREAT
+1 4
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 3
+Deffenders: 1 , 
+Helpers: 2 , 
+
+Attacking: 3 1
+
+Attacker: 2
+Deffenders: 3 , 3 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((7, 2), (6, 3))
+[(8, 1)]
+[(10, 2)]
+DEFFEEND MOVES
+Attacking: 2 1
+
+DEFFEEND MOVES
+Attacking: 2 2
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 4 , 3 , 2 , 
+Helpers: 2 , 
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 3 , 3 , 2 , 
+Helpers: 3 , 
+
+Attacking: 6 3
+
+Attacker: 5
+Deffenders: 2 , 
+Helpers: 
+
+Attacker: 3
+Deffenders: 3 , 2 , 
+Helpers: 
+
+Attacking: 5 2
+
+Attacker: 4
+Deffenders: 5 , 3 , 
+Helpers: 
+
+Attacker: 3
+Deffenders: 3 , 
+Helpers: 
+
+FUTURE THREAT
+2 7
+
+Attacking NONE
+
+DEFENSE 2
+((4, 4), (2, 5))
+((7, 3), (1, 3))
+[(6, 1)]
+[]
+[(6, 1), (8, 1)]
+[]
+[(10, 2)]
+DEFFEEND MOVES
+Attacking: 2 1
+
+DEFFEEND MOVES
+Attacking: 2 3
+
+DEFENSE 1
+((4, 4), (2, 5))
+[(6, 1)]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 2 , 
+Helpers: 2 , 
+
+Attacker: 4
+Deffenders: 6 , 2 , 
+Helpers: 
+
+FUTURE THREAT
+4 8
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 1
+((4, 4), (2, 6))
+[(6, 1)]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 8 , 2 , 1 , 
+Helpers: 
+
+Attacker: 3
+Deffenders: 1 , 
+Helpers: 
+
+Attacking: 3 1
+
+Attacker: 5
+Deffenders: 8 , 2 , 
+Helpers: 
+
+Attacker: 2
+Deffenders: 2 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 2
+((7, 2), (8, 2))
+((4, 5), (2, 8))
+[(6, 1)]
+[]
+[(6, 1)]
+[]
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 4
+Deffenders: 4 , 4 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 4), (6, 4))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 6 , 5 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 5), (11, 6))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 8 , 6 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 6), (11, 8))
+[]
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 4
+Deffenders: 3 , 3 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 6 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((10, 5), (7, 6))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 3 , 1 , 
+Helpers: 
+
+Attacking: 6 3
+
+Attacker: 5
+Deffenders: 6 , 1 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((7, 5), (3, 6))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 6 , 4 , 3 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 7
+Deffenders: 8 , 3 , 3 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 3
+Deffenders: 2 , 
+Helpers: 
+
+FUTURE THREAT
+2 4
+
+Attacking NONE
+
+DEFENSE 1
+((10, 1), (8, 4))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 4
+Deffenders: 2 , 
+Helpers: 
+
+Attacker: 2
+Deffenders: 6 , 
+Helpers: 
+
+FUTURE THREAT
+3 6
+
+Attacking NONE
+
+DEFENSE 1
+((10, 2), (8, 6))
+[]
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 3
+Deffenders: 3 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((8, 3), (7, 3))
+[(10, 1)]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 4
+Deffenders: 2 , 
+Helpers: 2 , 
+
+Attacking: 4 2
+
+Attacker: 3
+Deffenders: 3 , 3 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 3
+Deffenders: 4 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Purple
+
+Attacking NONE
+
+DEFENSE 1
+((9, 1), (7, 2))
+[]
+NO DEFENSE PATH FOUND
+Attacker: 3
+Deffenders: 2 , 
+Helpers: 
+
+Attacking: 3 2
+
+Attacker: 2
+Deffenders: 2 , 
+Helpers: 
+
+FUTURE THREAT
+1 3
+
+Attacking NONE
+
+DEFENSE 2
+((9, 1), (7, 2))
+((8, 2), (7, 2))
+[(10, 1)]
+[]
+[(10, 1)]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 3
+Deffenders: 2 , 
+Helpers: 2 , 
+
+Attacker: 2
+Deffenders: 2 , 
+Helpers: 2 , 
+
+NO helping attack path
+NO helping attack path
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 4
+Deffenders: 3 , 2 , 
+Helpers: 
+
+Attacker: 4
+Deffenders: 2 , 
+Helpers: 
+
+Attacking: 4 2
+
+Attacker: 4
+Deffenders: 3 , 
+Helpers: 
+
+Attacker: 3
+Deffenders: 3 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((8, 3), (7, 3))
+[(10, 1)]
+[]
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 2 , 
+Helpers: 2 , 
+
+Attacker: 4
+Deffenders: 2 , 
+Helpers: 2 , 
+
+Attacking: 5 2
+
+Attacker: 4
+Deffenders: 3 , 2 , 
+Helpers: 4 , 
+
+FUTURE THREAT
+3 5
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 7
+Deffenders: 2 , 2 , 
+Helpers: 5 , 
+
+Attacking: 7 2
+
+Attacker: 6
+Deffenders: 3 , 2 , 1 , 
+Helpers: 
+
+Attacker: 5
+Deffenders: 2 , 
+Helpers: 
+
+Attacking: 5 2
+
+Attacker: 6
+Deffenders: 3 , 1 , 
+Helpers: 
+
+Attacker: 4
+Deffenders: 1 , 
+Helpers: 
+
+Attacking: 6 3
+
+Attacker: 5
+Deffenders: 3 , 
+Helpers: 
+
+Attacker: 4
+Deffenders: 1 , 
+Helpers: 
+
+Attacking: 5 3
+
+Attacker: 4
+Deffenders: 1 , 
+Helpers: 
+
+Attacking: 4 1
+
+Attacker: 3
+Deffenders: 2 , 
+Helpers: 
+
+Attacking: 3 2
+
+Attacker: 2
+Deffenders: 3 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 2
+((5, 2), (11, 3))
+((4, 1), (6, 2))
+NO DEFENSE PATH FOUND
+Attacker: 2
+Deffenders: 3 , 
+Helpers: 2 , 2 , 
+
+Attacker: 2
+Deffenders: 3 , 
+Helpers: 2 , 
+
+NO helping attack path
+NO helping attack path
+NO helping attack path
+Attacking NONE
+
+DEFENSE 2
+((4, 2), (6, 3))
+((1, 2), (5, 3))
+[(3, 2)]
+DEFFEEND MOVES
+Attacking: 2 2
+
+DEFENSE 1
+((1, 2), (5, 3))
+[(2, 2), (3, 1)]
+DEFFEEND MOVES
+Attacking: 2 2
+
+DEFENSE 2
+((4, 3), (6, 3))
+((1, 3), (5, 3))
+[(3, 1)]
+[(7, 2), (2, 1)]
+DEFFEEND MOVES
+Attacking: 2 1
+
+DEFFEEND MOVES
+Attacking: 2 3
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 4 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 2
+((2, 1), (1, 3))
+((3, 1), (1, 3))
+[(7, 2)]
+DEFFEEND MOVES
+Attacking: 2 1
+
+DEFENSE 1
+((3, 1), (1, 3))
+[(7, 1)]
+[(9, 3), (8, 3)]
+DEFFEEND MOVES
+Attacking: 3 1
+
+DEFFEEND MOVES
+Attacking: 3 1
+
+DEFENSE 1
+((2, 2), (1, 3))
+[(7, 1)]
+[(8, 3), (9, 1)]
+DEFFEEND MOVES
+Attacking: 3 1
+
+DEFFEEND MOVES
+Attacking: 3 2
+
+DEFENSE 1
+((3, 3), (1, 3))
+[(7, 1)]
+[(9, 1), (8, 1)]
+[(10, 8), (8, 1)]
+DEFFEEND MOVES
+Attacking: 8 1
+
+DEFFEEND MOVES
+Attacking: 8 1
+
+DEFFEEND MOVES
+Attacking: 1 4
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 6 , 
+Helpers: 
+
+Attacker: 6
+Deffenders: 2 , 
+Helpers: 
+
+Attacker: 5
+Deffenders: 2 , 
+Helpers: 
+
+Attacking: 8 6
+
+Attacker: 6
+Deffenders: 2 , 
+Helpers: 
+
+Attacker: 5
+Deffenders: 2 , 
+Helpers: 
+
+Attacking: 6 2
+
+Attacker: 5
+Deffenders: 5 , 
+Helpers: 5 , 
+
+FUTURE THREAT
+4 7
+
+NO helping attack path
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 7
+Deffenders: 6 , 
+Helpers: 5 , 2 , 
+
+FUTURE THREAT
+6 8
+
+NO helping attack path
+NO helping attack path
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 8
+Deffenders: 8 , 
+Helpers: 5 , 4 , 
+
+Attacking: 8 8
+
+Attacker: 7
+Deffenders: 8 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 1
+((5, 7), (11, 8))
+[(1, 1)]
+[(3, 5), (2, 4)]
+[(2, 4), (7, 3), (4, 3)]
+DEFFEEND MOVES
+Attacking: 4 5
+
+DEFFEEND MOVES
+Attacking: 8 1
+
+DEFFEEND MOVES
+Attacking: 8 7
+
+DEFENSE 1
+((5, 8), (11, 8))
+[(1, 7)]
+DEFFEEND MOVES
+Attacking: 7 8
+
+DEFENSE 1
+((5, 8), (11, 8))
+[(1, 7)]
+DEFFEEND MOVES
+Attacking: 7 8
+
+DEFENSE 1
+((5, 8), (11, 8))
+[(1, 7)]
+DEFFEEND MOVES
+Attacking: 7 8
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 2 , 
+Helpers: 8 , 
+
+Attacking: 6 2
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Purple
+
+Attacker: 4
+Deffenders: 1 , 1 , 1 , 
+Helpers: 
+
+FUTURE THREAT
+3 5
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 5
+Deffenders: 2 , 2 , 1 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+Attacker: 6
+Deffenders: 3 , 3 , 2 , 
+Helpers: 
+
+Attacking NONE
+
+DEFENSE 0
+NO DEFENSE PATH FOUND
+01234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859Win counts {'kb.stei_at (AI)': 20, 'kb.stei_dt (AI)': 12, 'kb.stei_adt (AI)': 13, 'dt.stei (AI)': 7, 'xzahor04 (AI)': 3, 'kb.sdc_pre_at (AI)': 4}
+Nb battles min/avg/max 16/41.59/92

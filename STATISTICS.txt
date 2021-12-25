@@ -1,0 +1,10 @@
+Win counts {'xzahor04 (AI)': 62, 'dt.sdc (AI)': 23, 'kb.xlogin42 (AI)': 10, 'dt.rand (AI)': 4, '#None': 1}
+Nb battles min/avg/max 74/287.11/10000
+
+
+
+Win counts {'xzahor04 (AI)': 14, 'kb.sdc_pre_at (AI)': 4 , 'kb.stei_at (AI)': 31, 'kb.stei_adt (AI)': 41, 'kb.stei_dt (AI)': 9, 'dt.stei (AI)': 1}
+Nb battles min/avg/max 70/150.47/416
+
+Win counts {'xzahor04 (AI)': 21, 'kb.sdc_pre_at (AI)': 11, 'kb.stei_at (AI)': 23, 'kb.stei_adt (AI)': 39, 'kb.stei_dt (AI)': 3, 'dt.stei (AI)': 2, '#None': 1}
+Nb battles min/avg/max 66/251.87/10000
