@@ -1,1 +1,1 @@
-from .phased import AI
+from .phased_final import AI
