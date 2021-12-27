@@ -7,6 +7,10 @@ from collections import deque
 from dicewars.client.ai_driver import BattleCommand, EndTurnCommand, TransferCommand
 from dicewars.client.game.board import Board
 
+# For typing hints
+from typing import Dict, Tuple, List
+from dicewars.client.game.area import Area
+
 class AI:
     def __init__(self, player_name, board, players_order, max_transfers):
         self.player_name = player_name
@@ -29,6 +33,8 @@ class AI:
     def ai_turn(self, board, nb_moves_this_turn, nb_transfers_this_turn, nb_turns_this_game, time_left):
         """AI agent's turn
         """
+
+        print("---------------------MOVE----------------------------")
 
         # When there are deffend moves, do them
         if len(self.deffend_moves) > 0:
@@ -112,18 +118,16 @@ class AI:
         if self.stage == 'transfer':
             print('Transfers left', 6 - nb_transfers_this_turn)
 
+            # Generate transfer moves, with whats left after attack and deffend
+            self.transfer_moves = self.gen_transfer_moves(board, (6 - nb_transfers_this_turn), self.player_name)
+
             # When there are defined transfer moves, go through them
             if len(self.transfer_moves):
                 move = self.transfer_moves.pop()
                 return TransferCommand(move[0], move[1])
 
-            # Generate transfer moves, with whats left after attack and deffend
-            self.transfer_moves = self.gen_transfer_moves(board, (6 - nb_transfers_this_turn))
-
-            # No more moves
-            if len(self.transfer_moves) == 0:
-                self.stage = 'attack'
-                return EndTurnCommand()
+            self.stage = 'attack'
+            return EndTurnCommand()
 
         return EndTurnCommand()
 
@@ -189,7 +193,13 @@ class AI:
         # Before returning sort out based attack dice count
         return sorted(possible_attacks, reverse=True, key=lambda attacker: attacker[0][1])
 
-    def get_possible_endandered_areas(self, board):
+    def get_possible_endandered_areas(self, board) -> List[Tuple[Tuple[int, int], Tuple[int, int]]]:
+        """
+        Returns
+        -------
+        A list of tuples (our endangered area, enemy attacker), where both
+        are another tuple of (area name, dice count).
+        """
          # Get all areas we border with enemies
         our_border_areas = [area for area in board.get_player_border(self.player_name)]
 
@@ -285,16 +295,78 @@ class AI:
 
         return []
 
-    def gen_transfer_moves(self, board, transfers_left):
+    def gen_transfer_moves(self, board: Board, transfers_left: int, player_name: int) -> List[Tuple[int, int]]:
+        """Generate ONE transfer from areas that aren't close to the borders.
+
+        Returns
+        -------
+        A list of a single transfer as a tuple of area names (source, destination)
+        or an empty list if no viable transfer was found.
+        """
         # No more transfers left, end
-        if transfers_left == 0:
+        if transfers_left <= 0:
             return []
-        
-        # Get all endangered areas
-        endangered_areas = self.get_possible_endandered_areas(board)
 
-        # Try to move dices closer 
+        all_areas = board.get_player_areas(player_name)
+        border_areas = board.get_player_border(player_name)
+        enclosed_areas = list(set(all_areas).difference(border_areas))
 
+        # Sort border_areas in ascending order by the collective power of its neighbours and itself
+        border_areas.sort(key=lambda area: sum(board.get_area(neigh_name).get_dice() for neigh_name in area.get_adjacent_areas_names()))
+
+        if len(all_areas) >= len(board.areas) // 2:
+            # If we control few areas, support borders more directly
+            take_from_far_away = False
+        else:
+            # If we control many areas, move dice towards border from far away
+            take_from_far_away = True
+
+        # Sort enclosed areas by their distance from the border
+        enclosed_areas.sort(key=lambda area: AI_Utils.distance_from_border(board, area, player_name), reverse=take_from_far_away)
+
+        deferred_transfer = (0, 0)
+        deferred_dice = 0;
+
+        # Try to move dices closer
+        for border_area in border_areas:
+            deferred_dice = 0
+            for enclosed_area in enclosed_areas:
+                if enclosed_area.get_dice() == 1:
+                    # No dice to transfer
+                    #print(enclosed_area.get_name(), " no dice")
+                    continue
+
+                if AI_Utils.distance_from_border(board, enclosed_area, player_name) < 2:
+                    # Too close to border_area
+                    #print(enclosed_area.get_name(), " too close")
+                    continue
+
+                path, distance = AI_Utils.path_from_to(board, enclosed_area, border_area, player_name, not_along_borders=True)
+
+                if distance == -1:
+                    # Not found
+                    #print(enclosed_area.get_name(), " not found")
+                    continue
+
+                if board.get_area(path[1]).get_dice() == 8:
+                    # Don't pass to full area
+                    #print(enclosed_area.get_name(), " no pass to full")
+                    continue
+
+                if deferred_dice == 0:
+                    # This is done only once - the first time this code is reached
+                    deferred_dice = board.get_area(path[0]).get_dice()
+                    deferred_transfer = (path[0], path[1])
+                    continue
+
+                # Pick the better transfer between the current and the deferred one
+                if deferred_dice < board.get_area(path[0]).get_dice():
+                    return [(path[0], path[1])]
+                else:
+                    print("deferred transfer instead of ", (path[0], path[1]))
+                    return [deferred_transfer]
+
+                return [(path[0], path[1])]
 
         return []
 
@@ -551,6 +623,7 @@ class AI:
 
 
 class AI_Utils:
+    # TODO all methods of AU_Utils are static - decorate them with @staticmethod!
     def get_helpers(board, area, ignore_areas, player_name):
         # Get possible helpers of area
         possible_helpers = board.get_area(area[0]).get_adjacent_areas_names()
@@ -585,6 +658,125 @@ class AI_Utils:
         else:
             return n
 
+    @staticmethod
+    def distance_from_border(board: Board, area: Area, player_name: int) -> int:
+        """Find the distance between `area` and the closest border.
+
+        Returns
+        -------
+        The distance to the closest border. Returns -1 if border is not found.
+        """
+        area_name = area.get_name()
+
+        visited = set()
+        to_be_visited = [area_name]
+        distance = 0
+
+        if AI_Utils.border_with_enemy(board, area, player_name):
+            return distance
+
+        while to_be_visited:
+            search_level_size = len(to_be_visited)
+
+            while search_level_size != 0:
+                current_area_name = to_be_visited.pop(0)
+
+                for neighbour_name in board.get_area(current_area_name).get_adjacent_areas_names():
+                    neighbour = board.get_area(neighbour_name)
+                    if AI_Utils.border_with_enemy(board, neighbour, player_name):
+                        return distance + 1
+
+                    if neighbour_name in visited or neighbour_name in to_be_visited:
+                        continue
+
+                    to_be_visited.append(neighbour_name)
+
+                search_level_size -= 1
+                visited.add(current_area_name)
+
+            distance += 1
+
+        # border was not found (?)
+        return -1
+
+    @staticmethod
+    def path_from_to(board: Board, src: Area, dst: Area, player_name: int, not_along_borders=False) -> Tuple[List[int], int]:
+        """Get the path and distance from `src` to `dst`.
+
+        Done with a BFS/Dijsktra hybrid algorithm.
+
+        Parameters
+        ----------
+        not_along_borders : bool
+            If True, then the algorithm will not return a path that goes
+            through a border area.
+
+        Returns
+        -------
+        A tuple containing the path from `src` to `dst` and the distance of the path.
+        """
+        all_areas = board.get_player_areas(player_name)
+
+        previous = {area.get_name(): None for area in all_areas}
+
+        src_name = src.get_name()
+        dst_name = dst.get_name()
+
+        visited = set()
+        to_be_visited = [src_name]
+
+        if src_name == dst_name:
+            path = AI_Utils.shortest_path(previous, dst_name)
+            return (path, len(path) - 1)
+
+        while to_be_visited:
+            search_level_size = len(to_be_visited)
+
+            while search_level_size != 0:
+                current_area_name = to_be_visited.pop(0)
+
+                for neighbour_name in board.get_area(current_area_name).get_adjacent_areas_names():
+                    if neighbour_name == dst_name:
+                        # Found the destination
+                        previous[neighbour_name] = current_area_name
+                        path = AI_Utils.shortest_path(previous, dst_name)
+                        return (path, len(path) - 1)
+
+                    if neighbour_name in visited or neighbour_name in to_be_visited:
+                        # Has been processed or already is in queue to be processed
+                        continue
+
+                    if board.get_area(neighbour_name).get_owner_name() != player_name:
+                        # Only care about "our" areas
+                        continue
+
+                    if not_along_borders and AI_Utils.border_with_enemy(board, board.get_area(neighbour_name), player_name):
+                        # Don't want to lead a path along borders
+                        continue
+
+                    previous[neighbour_name] = current_area_name
+                    to_be_visited.append(neighbour_name)
+
+                search_level_size -= 1
+                visited.add(current_area_name)
+
+        # Destination was not found
+        return ([], -1)
+
+    @staticmethod
+    def shortest_path(previous: Dict[int, int], dst: int) -> List[int]:
+        """A utility function for path backtracking used by `path_from_to()`.
+        """
+        path = [dst]
+        step = dst
+        while previous[step] != None:
+            path.append(previous[step])
+            step = previous[step]
+        path.reverse()
+
+        return path
+
+    @staticmethod
     def border_with_enemy(board, area, player_name):
         # Get all neigbour areas
         neighbours = area.get_adjacent_areas_names()
