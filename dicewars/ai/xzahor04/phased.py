@@ -311,8 +311,21 @@ class AI:
         border_areas = board.get_player_border(player_name)
         enclosed_areas = list(set(all_areas).difference(border_areas))
 
-        # Sort border_areas in ascending order by the collective power of its neighbours and itself
-        border_areas.sort(key=lambda area: sum(board.get_area(neigh_name).get_dice() for neigh_name in area.get_adjacent_areas_names()))
+        def score_border_area(area: Area):
+            """Used for sorting the border areas.
+            """
+            score = area.get_dice()
+
+            neighbour_score = sum(
+                [board.get_area(neigh).get_dice() for neigh in area.get_adjacent_areas_names() if board.get_area(neigh).get_owner_name() == player_name]
+            )
+            neighbour_score *= 0.5 # weighting neighbours
+
+            score += neighbour_score
+            return score
+
+        # Sort border_areas in ascending order by a "defensive" score given to its surrounding area
+        border_areas.sort(key=score_border_area)
 
         if len(all_areas) >= len(board.areas) // 2:
             # If we control few areas, support borders more directly
@@ -325,7 +338,8 @@ class AI:
         enclosed_areas.sort(key=lambda area: AI_Utils.distance_from_border(board, area, player_name), reverse=take_from_far_away)
 
         deferred_transfer = (0, 0)
-        deferred_dice = 0;
+        deferred_dice = 0
+        deferred_path = []
 
         # Try to move dices closer
         for border_area in border_areas:
@@ -334,11 +348,6 @@ class AI:
                 if enclosed_area.get_dice() == 1:
                     # No dice to transfer
                     #print(enclosed_area.get_name(), " no dice")
-                    continue
-
-                if AI_Utils.distance_from_border(board, enclosed_area, player_name) < 2:
-                    # Too close to border_area
-                    #print(enclosed_area.get_name(), " too close")
                     continue
 
                 path, distance = AI_Utils.path_from_to(board, enclosed_area, border_area, player_name, not_along_borders=True)
@@ -354,9 +363,11 @@ class AI:
                     continue
 
                 if deferred_dice == 0:
-                    # This is done only once - the first time this code is reached
+                    # This is done only once - the first time this code is reached.
+                    # The first found move is deferred in case a better one is found.
                     deferred_dice = board.get_area(path[0]).get_dice()
                     deferred_transfer = (path[0], path[1])
+                    deferred_path = path
                     continue
 
                 # Pick the better transfer between the current and the deferred one
@@ -366,7 +377,17 @@ class AI:
                     print("deferred transfer instead of ", (path[0], path[1]))
                     return [deferred_transfer]
 
-                return [(path[0], path[1])]
+        # There are some transfers left, but no transfer was done
+
+        if len(deferred_path):
+            # Try the deferred move if one exists
+            return [(deferred_path[0], deferred_path[1])]
+
+        def_moves = self.gen_deffense_moves(board, transfers_left)
+        if len(def_moves):
+            # Try a defensive move if one exists
+            move = def_moves.pop()
+            return [move]
 
         return []
 
