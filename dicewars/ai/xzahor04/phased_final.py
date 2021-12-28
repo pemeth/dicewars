@@ -21,7 +21,7 @@ class AI:
 
         # Print player color for debuging
         AI_Debug.print_color(player_name)
-        
+
         self.attack_helper_attack_moves = []
         self.attack_helper_deffense_moves = []
         self.transfer_moves = []
@@ -39,7 +39,7 @@ class AI:
             return TransferCommand(move[0], move[1])
 
         # When there are attack_helper_attack_moves moves, do them before attack
-        if len(self.attack_helper_attack_moves) > 0:                
+        if len(self.attack_helper_attack_moves) > 0:
             # Pop one out, and do move
             move = self.attack_helper_attack_moves.pop()
             return TransferCommand(move[0], move[1])
@@ -60,7 +60,7 @@ class AI:
         if self.stage == 'attack':
             # Generate attack moves, with maximum of 3 helping transfers
             attack = self.get_attack(board, (4 - nb_transfers_this_turn))
-            
+
             # When after attack there are attack_helper_moves, do them first
             if len(self.attack_helper_attack_moves) > 0:
                 self.attack_move = attack
@@ -86,7 +86,7 @@ class AI:
 
             # No more deffender moves, go to transfer stage
             self.stage = 'transfer'
-        
+
         if self.stage == 'transfer':
             print('Transfers left', 6 - nb_transfers_this_turn)
 
@@ -108,7 +108,7 @@ class AI:
         if transfers_left <= 0:
             return []
 
-        # 
+        #
         for helper in AI_Utils.get_helpers(board, deffender, ignore_areas, self.player_name):
             # Found helper that is able to help, generate move
             if helper[1] > 1 and ((dice_count + helper[1] - 1) - threat[1]) >= -1:
@@ -141,7 +141,7 @@ class AI:
 
     def get_possible_attacks(self, board):
         """Function to generate combination of attack deffenders and helpers
-    
+
         Parameters
         ----------
         board : Board
@@ -159,7 +159,7 @@ class AI:
         """
         # Get all areas we border with enemies that can attack
         our_border_areas = [area for area in board.get_player_border(self.player_name) if area.can_attack()]
-        
+
         possible_attacks = []
 
         # Generate for each area, enemies
@@ -189,7 +189,7 @@ class AI:
             deffenders = sorted(deffenders, reverse=True, key=lambda deffender: deffender[1])
             helpers = sorted(helpers, reverse=True, key=lambda helper: helper[1])
 
-            # Append to possible attack when there 
+            # Append to possible attack when there
             possible_attacks.append(
                 (
                     (our_border_area.get_name(), our_border_area.get_dice()),
@@ -197,16 +197,16 @@ class AI:
                     helpers
                 )
             )
-        
+
         # Before returning sort out based attack dice count
         return sorted(possible_attacks, reverse=True, key=lambda attacker: attacker[0][1])
-    
+
     def get_possible_endandered_areas(self, board):
         # Get all areas we border with enemies
         our_border_areas = [area for area in board.get_player_border(self.player_name)]
 
         endangered_areas = []
-        
+
         # Loop through areas and find endangered ones
         for area in our_border_areas:
             # Skip areas with 8 dices
@@ -240,7 +240,7 @@ class AI:
                 (
                     (area.get_name(), area.get_dice()),
                     enemies[0]
-                ) 
+                )
             )
 
         # Sort by difference between ENEMY and our DICE count
@@ -257,7 +257,7 @@ class AI:
             for helper in AI_Utils.get_helpers(board, attacker, ignore_areas, self.player_name):
                 # Clamp attack dice with highest 8 dice count
                 attack_dice = AI_Utils.clamp_number_of_dices((dice_count + helper[1] - 1))
-                
+
                 # Last one needs to be higher than 1, and the probability of win needs to be True
                 if helper[1] > 1 and AI_Utils.attack_win_loss(attack_dice, deffender[1]):
                     return [(helper[0], attacker[0])]
@@ -341,7 +341,7 @@ class AI:
 
             # Get deffender area
             deffender_area = board.get_area(deffender[0])
-            
+
             enemy_found = None
 
             # Find enemy with the highest dice count
@@ -356,7 +356,7 @@ class AI:
                 # Skip enemies with 1 dice count
                 if enemy_area.get_dice() == 1:
                     continue
-                
+
                 # We found enemy with more dice
                 if enemy_found is None or enemy_found[1] < enemy_area.get_dice():
                     enemy_found = (enemy_area.get_name(), enemy_area.get_dice())
@@ -387,7 +387,6 @@ class AI:
             # When there are no helpers, we cant do anything
             if len(attack[2]) == 0:
                 return False
-            
 
             # We found helper that is able to help, he needs to have more than 1 dice
             if attack[2][0][1] > 1 and (attack[2][0][1] - attack[1][1][1]) >= -1:
@@ -410,7 +409,7 @@ class AI:
 
             # Reverse path so we can pop it out
             helpers.reverse()
-            
+
             # Set new path
             self.attack_helper_deffense_moves = helpers
             return True
@@ -433,12 +432,12 @@ class AI:
 
                     # There is no threat we can do the attack
                     if not possible_threat is None:
-                        # Return attack                            
+                        # Return attack
                         return (attack[0][0], attack[1][0][0])
 
                     # There is threat, try to find attack path, take into account, we can have deffense moves
                     if find_helping_attack_path(attack, (transfers_left - len(self.attack_helper_deffense_moves))):
-                            # Return attack                            
+                            # Return attack
                         return (attack[0][0], attack[1][0][0])
 
                     # Path not found, invalide attack helper deffense moves
@@ -446,17 +445,17 @@ class AI:
 
                 # We are unable to keep our area, try to find another attack
                 continue
-            
+
             # We are unable to win, try to find helpers that can help us, if not attack is impossible
             else:
                 # Try to find helping attack path
                 if find_helping_attack_path(attack, transfers_left):
                     # Attack was found
                     return (attack[0][0], attack[1][0][0])
-        
+
         # No attack is possible
         return None
-    
+
     # DONE
     def gen_deffense_moves(self, board, transfers_left):
         # Get endangered areas
@@ -466,7 +465,7 @@ class AI:
         for endangered_area in endangered_areas:
             # Find path
             path = self.gen_helping_defense_path(board, endangered_area[0], endangered_area[0][1], [endangered_area[0]], endangered_area[1], transfers_left)
-            
+
             # Path not found, go to another area
             if len(path) == 0:
                 continue
@@ -732,15 +731,15 @@ class AI_Utils:
     def border_with_enemy(board, area, player_name):
         # Get all neigbour areas
         neighbours = area.get_adjacent_areas_names()
-        
-        # Check every area, and when one is 
+
+        # Check every area, and when one is
         for neighbour in neighbours:
             neigh_area = board.get_area(neighbour)
 
-            # When one of the 
+            # When one of the
             if neigh_area.get_owner_name() != player_name:
                 return True
-        
+
         return False
 
     def attack_win_loss(atk, df):
