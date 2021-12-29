@@ -1,5 +1,7 @@
+from copy import deepcopy
 import logging
 import time
+import math
 from pprint import pprint
 from random import random
 from collections import deque
@@ -11,49 +13,83 @@ from dicewars.client.game.board import Board
 from typing import Dict, Tuple, List
 from dicewars.client.game.area import Area
 
+# TODO remove
+from dicewars.ai.kb.stei_adt import AI as AI_STEI
+
 class AI:
     def __init__(self, player_name, board, players_order, max_transfers):
         self.player_name = player_name
         self.logger = logging.getLogger('AI')
 
         self.stage = 'attack' # attack | deffend | transfer
+        self.sims = ['full', 'deffend', 'do_nothing']
         self.MAX_TRANSFERS = max_transfers
+        self.players_order = players_order
 
         # Print player color for debuging
-        AI_Debug.print_color(player_name)
+        #AI_Debug.print_color(player_name)
 
         self.attack_helper_attack_moves = []
         self.attack_helper_deffense_moves = []
         self.transfer_moves = []
         self.deffend_moves = []
 
+        self.first_move_this_turn = True
+
         self.attack_move = None
 
-    def ai_turn(self, board, nb_moves_this_turn, nb_transfers_this_turn, nb_turns_this_game, time_left):
+    def ai_turn(self, board, nb_moves_this_turn, nb_transfers_this_turn, nb_turns_this_game, time_left, sim=None):
         """AI agent's turn
         """
+
+        if self.first_move_this_turn and sim == None:
+            # We are NOT in a simulation and this is our first move this round - simulate
+            verdict = self.maxn_entry(board, self.player_name, 3)
+
+            if verdict == 'full':
+                self.stage = 'attack'
+            elif verdict == 'deffend':
+                self.stage = 'deffend'
+            else: # verdict == 'do_nothing'
+                self.first_move_this_turn = True
+                return EndTurnCommand()
+
+        if sim != None:
+            # We are in a simulation
+            if sim == 'full':
+                self.stage = 'attack'
+            elif sim == 'deffend':
+                self.stage = 'deffend'
+            else: # sim == 'do_nothing'
+                self.first_move_this_turn = True
+                return EndTurnCommand()
+
 
         # When there are deffend moves, do them
         if len(self.deffend_moves) > 0:
             move = self.deffend_moves.pop()
+            self.first_move_this_turn = False
             return TransferCommand(move[0], move[1])
 
         # When there are attack_helper_attack_moves moves, do them before attack
         if len(self.attack_helper_attack_moves) > 0:
             # Pop one out, and do move
             move = self.attack_helper_attack_moves.pop()
+            self.first_move_this_turn = False
             return TransferCommand(move[0], move[1])
 
         # Do attack move after attack helper moves all helpers to increase attack
         if self.attack_move is not None:
             tmp_attack_move = self.attack_move
             self.attack_move = None
+            self.first_move_this_turn = False
             return BattleCommand(tmp_attack_move[0], tmp_attack_move[1])
 
         # When there are attack_helper_deffense_moves, do them after attack
         if len(self.attack_helper_deffense_moves) > 0:
             # Pop one out, and do move
             move = self.attack_helper_deffense_moves.pop()
+            self.first_move_this_turn = False
             return TransferCommand(move[0], move[1])
 
         # Attacking stage
@@ -66,10 +102,12 @@ class AI:
                 self.attack_move = attack
                 # Pop one out, and do move
                 move = self.attack_helper_attack_moves.pop()
+                self.first_move_this_turn = False
                 return TransferCommand(move[0], move[1])
 
             # When we possible attack, do it
             if attack is not None:
+                self.first_move_this_turn = False
                 return BattleCommand(attack[0], attack[1])
 
             # No attack found, change to deffend
@@ -82,26 +120,180 @@ class AI:
             # When there are defined deffend moves, go through them
             if len(self.deffend_moves) > 0:
                 move = self.deffend_moves.pop()
+                self.first_move_this_turn = False
                 return TransferCommand(move[0], move[1])
 
             # No more deffender moves, go to transfer stage
             self.stage = 'transfer'
 
         if self.stage == 'transfer':
-            print('Transfers left', 6 - nb_transfers_this_turn)
-
             # Generate transfer moves, with whats left after attack and deffend
             self.transfer_moves = self.gen_transfer_moves(board, (6 - nb_transfers_this_turn), self.player_name)
 
             # When there are defined transfer moves, go through them
             if len(self.transfer_moves):
                 move = self.transfer_moves.pop()
+                self.first_move_this_turn = False
                 return TransferCommand(move[0], move[1])
 
             self.stage = 'attack'
-            return EndTurnCommand()
 
+        self.first_move_this_turn = True
         return EndTurnCommand()
+
+    def maxn_entry(self, board: Board, player_name, depth):
+        """Entry point for the maxn algorithm.
+        """
+        board_sim = deepcopy(board)
+        idx = self.players_order.index(self.player_name)
+        next_player = self.players_order[(idx + 1) % 4]
+        best_evaluation = [-math.inf for _unused in self.players_order]
+        best_sim = None
+
+        print("-----------SIM-----------")
+        print(idx)
+        AI_Debug.print_color(player_name)
+        for sim in self.sims:
+            # Get evaluation for all simulation types
+            turns, board_sim = self.simulate_turn(board_sim, player_name, sim)
+            current_evaluation = self.maxn(board_sim, next_player, depth - 1)
+            board_sim = self.unsimulate_turn(board_sim, turns)
+
+            print("simming ", sim, " with eval ", current_evaluation)
+            best_sim = sim if current_evaluation[idx] > best_evaluation[idx] else best_sim
+            best_evaluation = current_evaluation if current_evaluation[idx] > best_evaluation[idx] else best_evaluation
+        print("best sim: ", best_sim)
+        print("-----------DONE----------")
+        return best_sim
+
+    def maxn(self, board: Board, player_name, depth) -> List[int]:
+        """Recursive maxn algorithm implementation.
+        """
+        if depth <= 0:
+            return self.eval_game(board)
+
+        # Initialize to negative infinity
+        best_evaluation = [-math.inf for _unused in self.players_order]
+
+        board_sim = deepcopy(board)
+        idx = self.players_order.index(player_name)
+        next_player = self.players_order[(idx + 1) % 4]
+
+        for sim in self.sims:
+            # Get evaluation for all simulation types
+            turns, board_sim = self.simulate_turn(board_sim, player_name, sim)
+            current_evaluation = self.maxn(board_sim, next_player, depth - 1)
+            board_sim = self.unsimulate_turn(board_sim, turns)
+
+            best_evaluation = current_evaluation if current_evaluation[idx] > best_evaluation[idx] else best_evaluation
+
+        return best_evaluation
+
+    def eval_game(self, board: Board) -> List[int]:
+        """Evaluates the game for each player and returns.
+
+        Returns
+        -------
+        A list of evaluations for each player in the same order as `self.player_order`.
+        """
+        # TODO better evaluation (mayhaps based on the sum of border areas' hold probability)
+        return [len(board.get_player_areas(player)) for player in self.players_order]
+
+    def unsimulate_turn(self, board: Board, turns: List[Dict]) -> Board:
+        """Reverts changes made to `board` by `simulate_turn()`.
+        """
+        while turns:
+            turn = turns.pop()
+            board.get_area(turn['src']['name']).set_dice(turn['src']['dice_before'])
+            board.get_area(turn['dst']['name']).set_dice(turn['dst']['dice_before'])
+            board.get_area(turn['dst']['name']).set_owner(turn['dst']['owner_before'])
+
+        return board
+
+    def simulate_turn(self, board: Board, player_name, sim: str) -> Tuple[List[Dict], Board]:
+        """Simulate a turn for `player_name` on `board`.
+        """
+        ######################## WARNING: TODO #################################
+                    # TODO WE PROLLY CANT USE ANOTHER AI
+        ########################################################################
+        #ai_stei = AI_STEI(player_name, board, self.players_order, self.MAX_TRANSFERS)
+
+        # Use our AI
+        ai = AI(player_name, board, self.players_order, self.MAX_TRANSFERS)
+
+        nb_moves = 0
+        nb_transfers = 0
+
+        turns = []
+
+        battle_won = lambda atk, df: random() < AI_Utils.attack_succcess_probability(atk, df)
+
+        # These are constant for this project
+        BATTLE_WEAR = 4
+        MAX_DICE_PER_AREA = 8
+
+        while True:
+            turn = ai.ai_turn(board, nb_moves, nb_transfers, 0, 5, sim)
+
+            # What follows is a slightly simplified game logic from dicewars.server.game
+
+            if isinstance(turn, EndTurnCommand):
+                break
+
+            nb_moves += 1
+
+            src = turn.source_name
+            dst = turn.target_name
+            src_dice_before = board.get_area(src).get_dice()
+            src_dice_after = 0
+
+            dst_dice_before = board.get_area(dst).get_dice()
+            dst_owner_before = board.get_area(dst).get_owner_name()
+            dst_dice_after = 0
+            dst_owner_after = dst_owner_before
+
+            turn_type = None
+
+            if isinstance(turn, BattleCommand):
+                turn_type = 'battle'
+                src_dice_after = 1 # regardless of the battle outcome, 1 dice remains
+
+                if battle_won(src_dice_before, dst_dice_before):
+                    dst_dice_after = src_dice_before - 1
+                    dst_owner_after = board.get_area(src).get_owner_name()
+                else:
+                    battle_wear = src_dice_before // BATTLE_WEAR
+                    dst_dice_after = max(1, dst_dice_before - battle_wear)
+
+            elif isinstance(turn, TransferCommand):
+                turn_type = 'transfer'
+                nb_transfers += 1
+                dice_moved = min(MAX_DICE_PER_AREA - dst_dice_before, src_dice_before - 1)
+
+                src_dice_after = src_dice_before - dice_moved
+                dst_dice_after = dst_dice_before + dice_moved
+
+            board.get_area(src).set_dice(src_dice_after)
+            board.get_area(dst).set_dice(dst_dice_after)
+            board.get_area(dst).set_owner(dst_owner_after)
+
+            turns.append({
+                'type': turn_type,
+                'src': {
+                    'name': src,
+                    'dice_before': src_dice_before,
+                    'dice_after': src_dice_after
+                },
+                'dst': {
+                    'name': dst,
+                    'dice_before': dst_dice_before,
+                    'dice_after': dst_dice_after,
+                    'owner_before': dst_owner_before,
+                    'owner_after': dst_owner_after
+                }
+            })
+
+        return turns, board
 
     def gen_helping_defense_path(self, board, deffender, dice_count, ignore_areas, threat, transfers_left):
         # No transfers left
@@ -418,7 +610,7 @@ class AI:
         attacks = self.get_possible_attacks(board)
 
         # Print out possible attacks
-        AI_Debug.print_possible_attacks(attacks)
+        #AI_Debug.print_possible_attacks(attacks)
 
         # Go through all possible attacks
         for attack in attacks:
@@ -557,7 +749,6 @@ class AI:
                 if deferred_dice < board.get_area(path[0]).get_dice():
                     return [(path[0], path[1])]
                 else:
-                    print("deferred transfer instead of ", (path[0], path[1]))
                     return [deferred_transfer]
 
         # There are some transfers left, but no transfer was done
