@@ -623,7 +623,7 @@ class AI:
                     possible_threat = future_threats(attack[0], attack[1][0])
 
                     # There is no threat we can do the attack
-                    if not possible_threat is None:
+                    if possible_threat is None:
                         # Return attack
                         return (attack[0][0], attack[1][0][0])
 
