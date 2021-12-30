@@ -29,6 +29,8 @@ class AI:
         # Print player color for debuging
         #AI_Debug.print_color(player_name)
 
+        self.N_AREAS = sum(len(board.get_player_areas(player)) for player in players_order)
+
         self.attack_helper_attack_moves = []
         self.attack_helper_deffense_moves = []
         self.transfer_moves = []
@@ -44,7 +46,8 @@ class AI:
 
         if self.first_move_this_turn and sim == None:
             # We are NOT in a simulation and this is our first move this round - simulate
-            verdict = self.maxn_entry(board, self.player_name, 3)
+            #verdict = self.maxn_entry(board, self.player_name, 3)
+            verdict = self.alpha_beta_entry(board, self.player_name, 5)
 
             if verdict == 'full':
                 self.stage = 'attack'
@@ -140,6 +143,62 @@ class AI:
 
         self.first_move_this_turn = True
         return EndTurnCommand()
+
+    def alpha_beta_entry(self, board: Board, player_name, depth):
+        """Entry point for the alpha-beta algorithm.
+        """
+        board_sim = deepcopy(board)
+        idx = self.players_order.index(self.player_name)
+        next_player = self.players_order[(idx + 1) % 4]
+        best_sim = None
+
+        turns, board_sim = self.simulate_turn(board_sim, player_name, self.sims[0])
+        best_evaluation = self.alpha_beta(board_sim, next_player, depth - 1, self.N_AREAS)
+        board_sim = self.unsimulate_turn(board_sim, turns)
+        best_sim = self.sims[0]
+
+        for sim_idx in range(1, len(self.sims)):
+            if best_evaluation[idx] >= self.N_AREAS:
+                # Alpha-Beta pruning
+                return best_evaluation
+
+            # Get evaluation for all simulation types
+            turns, board_sim = self.simulate_turn(board_sim, player_name, self.sims[sim_idx])
+            current_evaluation = self.alpha_beta(board_sim, next_player, depth - 1, self.N_AREAS - best_evaluation[idx])
+            board_sim = self.unsimulate_turn(board_sim, turns)
+
+            best_sim = self.sims[sim_idx] if current_evaluation[idx] > best_evaluation[idx] else best_sim
+            best_evaluation = current_evaluation if current_evaluation[idx] > best_evaluation[idx] else best_evaluation
+
+        return best_sim
+
+    def alpha_beta(self, board: Board, player_name, depth, bound) -> List[int]:
+        """Recursive alpha_beta algorithm implementation.
+        """
+        if depth <= 0:
+            return self.eval_game(board)
+
+        board_sim = deepcopy(board)
+        idx = self.players_order.index(player_name)
+        next_player = self.players_order[(idx + 1) % 4]
+
+        turns, board_sim = self.simulate_turn(board_sim, player_name, self.sims[0])
+        best_evaluation = self.alpha_beta(board_sim, next_player, depth - 1, self.N_AREAS)
+        board_sim = self.unsimulate_turn(board_sim, turns)
+
+        for sim_idx in range(1, len(self.sims)):
+            if best_evaluation[idx] >= bound:
+                # Alpha-Beta pruning
+                return best_evaluation
+
+            # Get evaluation for all simulation types
+            turns, board_sim = self.simulate_turn(board_sim, player_name, self.sims[sim_idx])
+            current_evaluation = self.alpha_beta(board_sim, next_player, depth - 1, self.N_AREAS - best_evaluation[idx])
+            board_sim = self.unsimulate_turn(board_sim, turns)
+
+            best_evaluation = current_evaluation if current_evaluation[idx] > best_evaluation[idx] else best_evaluation
+
+        return best_evaluation
 
     def maxn_entry(self, board: Board, player_name, depth):
         """Entry point for the maxn algorithm.
