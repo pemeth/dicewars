@@ -1,3 +1,6 @@
 __pycache__/
 
 debug.save
+
+log/
+logs/
