@@ -209,20 +209,15 @@ class AI:
         best_evaluation = [-math.inf for _unused in self.players_order]
         best_sim = None
 
-        print("-----------SIM-----------")
-        print(idx)
-        AI_Debug.print_color(player_name)
         for sim in self.sims:
             # Get evaluation for all simulation types
             turns, board_sim = self.simulate_turn(board_sim, player_name, sim)
             current_evaluation = self.maxn(board_sim, next_player, depth - 1)
             board_sim = self.unsimulate_turn(board_sim, turns)
 
-            print("simming ", sim, " with eval ", current_evaluation)
             best_sim = sim if current_evaluation[idx] > best_evaluation[idx] else best_sim
             best_evaluation = current_evaluation if current_evaluation[idx] > best_evaluation[idx] else best_evaluation
-        print("best sim: ", best_sim)
-        print("-----------DONE----------")
+
         return best_sim
 
     def maxn(self, board: Board, player_name, depth) -> List[int]:
