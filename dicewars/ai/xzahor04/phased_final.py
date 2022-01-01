@@ -2,8 +2,10 @@ from copy import deepcopy
 import logging
 import time
 import math
+import numpy as np
 from pprint import pprint
 from random import random
+import torch
 from collections import deque
 
 from dicewars.client.ai_driver import BattleCommand, EndTurnCommand, TransferCommand
@@ -13,8 +15,11 @@ from dicewars.client.game.board import Board
 from typing import Dict, Tuple, List
 from dicewars.client.game.area import Area
 
-# TODO remove
-from dicewars.ai.kb.stei_adt import AI as AI_STEI
+# NN
+from dicewars.ai.xzahor04.model import Linear_QNet, QTrainer
+
+MAX_MEMORY = 100000
+BATCH_SIZE = 1000
 
 class AI:
     def __init__(self, player_name, board, players_order, max_transfers):
@@ -40,6 +45,14 @@ class AI:
 
         self.attack_move = None
 
+        # NN
+        self.states_old = []
+        self.num_actions = 0
+        self.memory = deque(maxlen=MAX_MEMORY) # popleft()
+        self.model = Linear_QNet(7, 256, 2)
+        self.model.load()
+        self.trainer = QTrainer(self.model, lr=0.001, gamma=0.9)
+
     def ai_turn(self, board, nb_moves_this_turn, nb_transfers_this_turn, nb_turns_this_game, time_left, sim=None):
         """AI agent's turn
         """
@@ -47,7 +60,8 @@ class AI:
         if self.first_move_this_turn and sim == None:
             # We are NOT in a simulation and this is our first move this round - simulate
             #verdict = self.maxn_entry(board, self.player_name, 3)
-            verdict = self.alpha_beta_entry(board, self.player_name, 5)
+            # TODO decide whether the search should be deeper than 3...
+            verdict = self.alpha_beta_entry(board, self.player_name, 3)
 
             if verdict == 'full':
                 self.stage = 'attack'
@@ -144,6 +158,61 @@ class AI:
         self.first_move_this_turn = True
         return EndTurnCommand()
 
+    #############################################################
+    ##################### Neural Network ########################
+    #############################################################
+    def get_action(self, state):
+        final_move = [0,0]
+
+        state0 = torch.tensor(state, dtype=torch.float)
+        prediction = self.model(state0)
+        move = torch.argmax(prediction).item()
+        final_move[move] = 1
+
+        return final_move
+
+    def get_state(self, board, defender_area):
+
+        defender_area_dice = defender_area.get_dice()
+
+        defender_area_adj_areas_names = defender_area.get_adjacent_areas_names()
+
+        their_areas_names = [area_name for area_name in defender_area_adj_areas_names if board.get_area(area_name).get_owner_name() != self.player_name]
+
+        # Get all dice count of these areas
+        their_areas_names_dice = []
+        for area_name in their_areas_names:
+            their_areas_names_dice.append(board.get_area(area_name).get_dice())
+
+        their_areas_names_dice = sorted(their_areas_names_dice, reverse=True)
+
+        # Take at most 5 strongest dice
+        their_areas_names_dice = their_areas_names_dice[:5]
+
+        state = []
+
+        state.append(defender_area_dice)
+
+        for their_area_name_dice in their_areas_names_dice:
+            state.append(their_area_name_dice)
+
+        for i in range(5 - len(their_areas_names_dice)):
+            state.append(0)
+
+        if(defender_area.get_owner_name() == self.player_name):
+            state.append(1)
+        else:
+            state.append(0)
+
+        areas_names = []
+
+        areas_names.append(defender_area.get_name())
+
+        return np.array(state, dtype=int), areas_names
+
+    #############################################################
+    ########################## SEARCH ###########################
+    #############################################################
     def alpha_beta_entry(self, board: Board, player_name, depth):
         """Entry point for the alpha-beta algorithm.
         """
@@ -267,10 +336,6 @@ class AI:
     def simulate_turn(self, board: Board, player_name, sim: str) -> Tuple[List[Dict], Board]:
         """Simulate a turn for `player_name` on `board`.
         """
-        ######################## WARNING: TODO #################################
-                    # TODO WE PROLLY CANT USE ANOTHER AI
-        ########################################################################
-        #ai_stei = AI_STEI(player_name, board, self.players_order, self.MAX_TRANSFERS)
 
         # Use our AI
         ai = AI(player_name, board, self.players_order, self.MAX_TRANSFERS)
@@ -493,7 +558,7 @@ class AI:
         return sorted(endangered_areas, key=lambda endangered_area: endangered_area[0][1] - endangered_area[1][1])
 
 
-    def get_attack(self, board, transfers_left):
+    def get_attack(self, board: Board, transfers_left):
         def gen_helping_attack_path(board, attacker, dice_count, ignore_areas, deffender, transfers_left):
             # No transfers left
             if transfers_left <= 0:
@@ -670,8 +735,14 @@ class AI:
         for attack in attacks:
             # Check if we are able to win first fight
             if AI_Utils.attack_win_loss(attack[0][1], attack[1][0][1]):
+                # Attack is successful, get state for NN
+                state, _unused = self.get_state(board, board.get_area(attack[1][0][1]))
+                do_we_keep = self.get_action(state)[0]
+
+                #print("Do we keep area ", _unused[0], "? We ", "do." if do_we_keep else "don't.")
+
                 # Check if we will be able to keep our area after attack
-                if do_we_keep_area_after_attack(attack, transfers_left):
+                if do_we_keep: #do_we_keep_area_after_attack(attack, transfers_left): # TODO this check could be replaced by the neural network
 
                     # Check possible threat
                     possible_threat = future_threats(attack[0], attack[1][0])
