@@ -16,19 +16,6 @@ class AI:
         self.player_name = player_name
         self.logger = logging.getLogger('AI')
 
-        colors = {
-            1: 'Green',
-            2: 'Blue',
-            3: 'Red',
-            4: 'Yellow',
-            5: 'Light blue',
-            6: 'Purple',
-            7: 'White',
-            8: 'Light purple'
-        }
-
-        print(colors[player_name])
-
         self.states_old = []
         self.num_actions = 0
 
@@ -42,8 +29,6 @@ class AI:
     def __del__(self):
 
         #print("Executing long train with all acquired data and saving model to file.")
-        # TODO spytat sa, ci toto je nutne spravit este aj tu (okrem kazdeho jednotlive kola) - lebo sa to takmer nikdy nedokonci v tejto metode?
-        #self.train_long_memory()
 
         self.model.save()
 
@@ -75,8 +60,8 @@ class AI:
 
             self.states_old.append((state_old, areas_names, final_move))
 
-            print("Added Old State: ", state_old, "Areas: ", areas_names)
-            print("Final move ", final_move)
+            #print("Added Old State: ", state_old, "Areas: ", areas_names)
+            #print("Final move ", final_move)
 
             # perform the move
             if(final_move[0] == 1):
