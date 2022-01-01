@@ -274,49 +274,6 @@ class AI:
 
         return best_evaluation
 
-    def maxn_entry(self, board: Board, player_name, depth):
-        """Entry point for the maxn algorithm.
-        """
-        board_sim = deepcopy(board)
-        idx = self.players_order.index(self.player_name)
-        next_player = self.players_order[(idx + 1) % 4]
-        best_evaluation = [-math.inf for _unused in self.players_order]
-        best_sim = None
-
-        for sim in self.sims:
-            # Get evaluation for all simulation types
-            turns, board_sim = self.simulate_turn(board_sim, player_name, sim)
-            current_evaluation = self.maxn(board_sim, next_player, depth - 1)
-            board_sim = self.unsimulate_turn(board_sim, turns)
-
-            best_sim = sim if current_evaluation[idx] > best_evaluation[idx] else best_sim
-            best_evaluation = current_evaluation if current_evaluation[idx] > best_evaluation[idx] else best_evaluation
-
-        return best_sim
-
-    def maxn(self, board: Board, player_name, depth) -> List[int]:
-        """Recursive maxn algorithm implementation.
-        """
-        if depth <= 0:
-            return self.eval_game(board)
-
-        # Initialize to negative infinity
-        best_evaluation = [-math.inf for _unused in self.players_order]
-
-        board_sim = deepcopy(board)
-        idx = self.players_order.index(player_name)
-        next_player = self.players_order[(idx + 1) % 4]
-
-        for sim in self.sims:
-            # Get evaluation for all simulation types
-            turns, board_sim = self.simulate_turn(board_sim, player_name, sim)
-            current_evaluation = self.maxn(board_sim, next_player, depth - 1)
-            board_sim = self.unsimulate_turn(board_sim, turns)
-
-            best_evaluation = current_evaluation if current_evaluation[idx] > best_evaluation[idx] else best_evaluation
-
-        return best_evaluation
-
     def eval_game(self, board: Board) -> List[int]:
         """Evaluates the game for each player and returns.
 
