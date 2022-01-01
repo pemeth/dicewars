@@ -231,17 +231,17 @@ class AI:
         board_sim = self.unsimulate_turn(board_sim, turns)
         best_sim = self.sims[0]
 
-        for sim_idx in range(1, len(self.sims)):
+        for sim in self.sims[1:]:
             if best_evaluation[idx] >= self.N_AREAS:
                 # Alpha-Beta pruning
                 return best_evaluation
 
             # Get evaluation for all simulation types
-            turns, board_sim = self.simulate_turn(board_sim, player_name, self.sims[sim_idx])
+            turns, board_sim = self.simulate_turn(board_sim, player_name, sim)
             current_evaluation = self.alpha_beta(board_sim, next_player, depth - 1, self.N_AREAS - best_evaluation[idx])
             board_sim = self.unsimulate_turn(board_sim, turns)
 
-            best_sim = self.sims[sim_idx] if current_evaluation[idx] > best_evaluation[idx] else best_sim
+            best_sim = sim if current_evaluation[idx] > best_evaluation[idx] else best_sim
             best_evaluation = current_evaluation if current_evaluation[idx] > best_evaluation[idx] else best_evaluation
 
         return best_sim
@@ -260,13 +260,13 @@ class AI:
         best_evaluation = self.alpha_beta(board_sim, next_player, depth - 1, self.N_AREAS)
         board_sim = self.unsimulate_turn(board_sim, turns)
 
-        for sim_idx in range(1, len(self.sims)):
+        for sim in self.sims[1:]:
             if best_evaluation[idx] >= bound:
                 # Alpha-Beta pruning
                 return best_evaluation
 
             # Get evaluation for all simulation types
-            turns, board_sim = self.simulate_turn(board_sim, player_name, self.sims[sim_idx])
+            turns, board_sim = self.simulate_turn(board_sim, player_name, sim)
             current_evaluation = self.alpha_beta(board_sim, next_player, depth - 1, self.N_AREAS - best_evaluation[idx])
             board_sim = self.unsimulate_turn(board_sim, turns)
 
