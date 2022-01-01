@@ -59,8 +59,6 @@ class AI:
 
         if self.first_move_this_turn and sim == None:
             # We are NOT in a simulation and this is our first move this round - simulate
-            #verdict = self.maxn_entry(board, self.player_name, 3)
-            # TODO decide whether the search should be deeper than 3...
             verdict = self.alpha_beta_entry(board, self.player_name, 3)
 
             if verdict == 'full':
@@ -162,6 +160,13 @@ class AI:
     ##################### Neural Network ########################
     #############################################################
     def get_action(self, state):
+        """Get a prediction based on `state`.
+
+        Returns
+        -------
+        A list of two values predicting whether a move should be taken based on `state`.
+        If it should be taken, then [1,0] is returned, [0,1] otherwise.
+        """
         final_move = [0,0]
 
         state0 = torch.tensor(state, dtype=torch.float)
@@ -735,14 +740,12 @@ class AI:
         for attack in attacks:
             # Check if we are able to win first fight
             if AI_Utils.attack_win_loss(attack[0][1], attack[1][0][1]):
-                # Attack is successful, get state for NN
+                # Attack is successful, get state for NN and its prediction
                 state, _unused = self.get_state(board, board.get_area(attack[1][0][1]))
-                do_we_keep = self.get_action(state)[0]
-
-                #print("Do we keep area ", _unused[0], "? We ", "do." if do_we_keep else "don't.")
+                keep_area = self.get_action(state)[0]
 
                 # Check if we will be able to keep our area after attack
-                if do_we_keep: #do_we_keep_area_after_attack(attack, transfers_left): # TODO this check could be replaced by the neural network
+                if keep_area:
 
                     # Check possible threat
                     possible_threat = future_threats(attack[0], attack[1][0])
