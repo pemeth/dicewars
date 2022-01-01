@@ -16,7 +16,7 @@ class Linear_QNet(nn.Module):
         return x
 
     def save(self, file_name='model.pth'):
-        model_folder_path = './model'
+        model_folder_path = './dicewars/ai/xzahor04'
         if not os.path.exists(model_folder_path):
             os.makedirs(model_folder_path)
 
@@ -24,7 +24,7 @@ class Linear_QNet(nn.Module):
         torch.save(self.state_dict(), file_name)
 
     def load(self, file_name='model.pth'):
-        model_folder_path = './model'
+        model_folder_path = './dicewars/ai/xzahor04'
         file_name = os.path.join(model_folder_path, file_name)
 
         if not os.path.exists(file_name):
